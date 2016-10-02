@@ -2,7 +2,7 @@
 
 
 
-CountLines=$(cat data/lists | wc -l)
+CountLines=$(cat data/manager.scr/lists | wc -l)
 
 		# loop from 1 to all CountLines
 		for i in `seq 1 $CountLines`
@@ -10,10 +10,10 @@ CountLines=$(cat data/lists | wc -l)
 			# i=line number
 
 			# first word(number) from line
-			number=$(awk 'NR=='$i data/lists | awk '{ printf $1}' )
+			number=$(awk 'NR=='$i data/manager.scr/lists | awk '{ printf $1}' )
 
 			# second word(link) from line 
-			link=$(awk 'NR=='$i data/lists | awk '{ printf $2}' )
+			link=$(awk 'NR=='$i data/manager.scr/lists | awk '{ printf $2}' )
 
 			OLD_MARKER="data/webs/${number}.*"
 			curl -s $link > data/tmp/new.marker

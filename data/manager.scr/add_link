@@ -54,6 +54,8 @@ export add='
 				<action type="closewindow">"addwindow"</action>
 		</button>
 
+		<button cancel></button>
+
 	</hbox>
 </vbox>
 </window>

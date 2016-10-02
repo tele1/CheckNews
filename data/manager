@@ -6,10 +6,11 @@ function Func_remove() {
 	if [ -z "$LIST" ]
 	then
 		echo "variable is empty"
+		notify-send "Nothing selected to remove."
 	else
 		number1=$(awk '{print $1}' <<< "$LIST")
 		rm -vf data/webs/${number1}.*
-		echo -e "$(cat data/lists | grep -v "$LIST")" > data/lists
+		echo -e "$(cat data/manager.src/lists | grep -v "$LIST")" > data/manager.src/lists
 	fi
 }
 export -f Func_remove
@@ -26,24 +27,42 @@ export manage='
 	</text>
     <list>
 		<variable>LIST</variable>
-		<input file>data/lists</input>
+		<input file>data/manager.scr/lists</input>
 
     </list>
-	<hbox>
 
+	<vbox>
+	<hbox>
 			<button>
+				<label>Add Link</label>
+				<input file icon="bookmark_add"></input>
+				<action>data/manager.scr/add_link</action>
+                <action>clear:LIST</action>
+                <action>refresh:LIST</action>
+			</button>
+			<button>
+				<label>Remove Selected</label>
 				<input file stock="gtk-delete"></input>
-				<label>Removeselected</label>
 				<action>Func_remove</action>
                 <action>clear:LIST</action>
                 <action>refresh:LIST</action>
 			</button>
-		<button ok>
-				<variable>managewindow</variable>
-				<action type="closewindow">"managewindow"</action>
-		</button>
 
 	</hbox>
+<vseparator height-request="10"></vseparator>
+
+	<hbox>
+				<button>
+					<label>'$"Exit"'</label>
+					<input file icon="exit"></input>
+					<action>echo You pressed exit button</action>
+					<action type="exit">"Exit by button"</action>
+				<variable>managewindow</variable>
+				<action type="closewindow">"managewindow"</action>
+				</button>
+	</hbox>
+	</vbox>
+
 </vbox>
 </window>
 '
