@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>
+	So cool ice cubes are jealous &raquo; PCLinuxOS	
+</title>
+
+<meta name="generator" content="WordPress 4.4.2" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.pclinuxos.com/wp-content/themes/i3theme-1-8-classic/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.pclinuxos.com/wp-content/themes/i3theme-1-8-classic/print.css" type="text/css" media="print" />
+
+<!-- Sidebar docking boxes (dbx) by Brothercake - http://www.brothercake.com/ -->
+<script type="text/javascript" src="http://www.pclinuxos.com/wp-content/themes/i3theme-1-8-classic/dbx.js"></script>
+<script type="text/javascript" src="http://www.pclinuxos.com/wp-content/themes/i3theme-1-8-classic/dbx-key.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.pclinuxos.com/wp-content/themes/i3theme-1-8-classic/dbx.css" media="screen, projection" />
+
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="http://www.pclinuxos.com/wp-content/themes/i3theme-1-8-classic/ie-gif.css" type="text/css" />
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="PCLinuxOS RSS Feed" href="http://www.pclinuxos.com/feed/" />
+<link rel="pingback" href="http://www.pclinuxos.com/xmlrpc.php" />
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.pclinuxos.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.pclinuxos.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pclinuxos.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pclinuxos.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+</head>
+<body>
+<div id="page">
+  <div id="wrapper">
+    <div id="header">
+      <h1><a href="http://www.pclinuxos.com">PCLinuxOS</a></h1>
+      <div class="description">So cool ice cubes are jealous</div>
+      <form method="get" id="searchform" action="http://www.pclinuxos.com/">
+<div><input type="text" value="Search" name="s" id="s" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+<input type="submit" id="searchsubmit" value="Go" />
+</div>
+</form>
+
+    </div><!-- /header -->
+
+<table id="layout">
+<tr>
+	<td class="sidebars">
+	<div class="dbx-group" id="sidebar-left">
+
+  <!--sidebox start --><div id="text-3" class="dbx-box widget_text"><h3 class="dbx-handle">Main Menu</h3><div class="dbx-content">			<div class="textwidget"><h3>
+<a href="http://www.pclinuxos.com">Home</a><br>
+<a href="http://pclinuxos.com/?page_id=2">About PCLinuxOS</a><br>
+<a href="http://pclinuxos.com/?page_id=10">Get PCLinuxOS</a><br>
+<a href="http://pclinuxos.com/?page_id=12">Support</a><br>
+<a href="http://pclinuxos.com/?page_id=14">Community</a><br>
+<a href="http://pclinuxos.com/?page_id=16">International</a><br>
+<a href="http://pclinuxos.com/?page_id=165">Contact Us</a><br>
+<a href="http://pclinuxos.com/?page_id=299">Forum</a><br>
+<a href="http://pclinuxos.com/?page_id=388">Merchandise</a><br>
+<a href="http://www.pclinuxos.com/?page_id=7">Help us out</a><br></div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-6" class="dbx-box widget_text"><h3 class="dbx-handle">Sponsors</h3><div class="dbx-content">			<div class="textwidget"><center>
+<a href="https://www.nluug.nl/index.html"><img class="size-full" title="nluug" src="http://www.pclinuxos.com/photos/nluug.gif" alt="nluug Repository" width="169" height="45" /></a><br>
+</center></div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-12" class="dbx-box widget_text"><h3 class="dbx-handle">PCLinuxOS Magazine</h3><div class="dbx-content">			<div class="textwidget">Recent Issues:<br>
+
+<a
+href="http://pclosmag.com/download.php?f=2016-02.pdf"><b>February 2016</b>
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2016-01.pdf">January 2016
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-12.pdf">December 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-11.pdf">November 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-10.pdf">October 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-09.pdf">September 2015
+</a><br>
+<a
+href="http://pclosmag.com/download.php?f=2015-08.pdf">August 2015
+</a><br>
+<a
+href="http://pclosmag.com/download.php?f=2015-07.pdf">July 2015
+</a><br>
+<a
+href="http://pclosmag.com/download.php?f=2015-06.pdf">June 2015
+</a><br>
+<a
+href="http://pclosmag.com/download.php?f=2015-05.pdf">May 2015
+</a><br>
+
+
+<a
+href="http://pclosmag.com/download.php?f=2015-04.pdf">April 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-03.pdf">March 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-02.pdf">February 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2015-01.pdf">January 2015
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2014-12.pdf">December 2014
+</a><br>
+
+<a
+href="http://pclosmag.com/download.php?f=2014-11.pdf">November 2014
+</a><br>
+<a
+href="http://pclosmag.com/download.php?f=2014-10.pdf">October 2014
+</a><br>
+<a href="http://pclosmag.com/download.php?f=2014-09.pdf">September 2014
+</a><br>
+<a href="http://pclosmag.com/download.php?f=2014-08.pdf">August 2014
+</a><br>
+</div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="archives-4" class="dbx-box widget_archive"><h3 class="dbx-handle">News Archives</h3><div class="dbx-content">		<ul>
+			<li><a href='http://www.pclinuxos.com/2016/02/'>February 2016</a>&nbsp;(6)</li>
+	<li><a href='http://www.pclinuxos.com/2016/01/'>January 2016</a>&nbsp;(6)</li>
+	<li><a href='http://www.pclinuxos.com/2015/11/'>November 2015</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2015/09/'>September 2015</a>&nbsp;(6)</li>
+	<li><a href='http://www.pclinuxos.com/2015/08/'>August 2015</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2015/07/'>July 2015</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2015/06/'>June 2015</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2015/05/'>May 2015</a>&nbsp;(6)</li>
+	<li><a href='http://www.pclinuxos.com/2015/04/'>April 2015</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2015/03/'>March 2015</a>&nbsp;(13)</li>
+	<li><a href='http://www.pclinuxos.com/2015/02/'>February 2015</a>&nbsp;(11)</li>
+	<li><a href='http://www.pclinuxos.com/2015/01/'>January 2015</a>&nbsp;(10)</li>
+	<li><a href='http://www.pclinuxos.com/2014/12/'>December 2014</a>&nbsp;(8)</li>
+	<li><a href='http://www.pclinuxos.com/2014/10/'>October 2014</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2014/09/'>September 2014</a>&nbsp;(10)</li>
+	<li><a href='http://www.pclinuxos.com/2014/08/'>August 2014</a>&nbsp;(7)</li>
+	<li><a href='http://www.pclinuxos.com/2014/06/'>June 2014</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2014/05/'>May 2014</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2014/04/'>April 2014</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2014/02/'>February 2014</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2013/12/'>December 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2013/11/'>November 2013</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2013/10/'>October 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2013/08/'>August 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2013/07/'>July 2013</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2013/06/'>June 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2013/05/'>May 2013</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2013/04/'>April 2013</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2013/03/'>March 2013</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2013/01/'>January 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2012/12/'>December 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/11/'>November 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/10/'>October 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/09/'>September 2012</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2012/08/'>August 2012</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2012/07/'>July 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/06/'>June 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/05/'>May 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/04/'>April 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/03/'>March 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2012/02/'>February 2012</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2012/01/'>January 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2011/12/'>December 2011</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2011/11/'>November 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2011/10/'>October 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.pclinuxos.com/2011/09/'>September 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2011/08/'>August 2011</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2011/07/'>July 2011</a>&nbsp;(9)</li>
+	<li><a href='http://www.pclinuxos.com/2011/06/'>June 2011</a>&nbsp;(10)</li>
+	<li><a href='http://www.pclinuxos.com/2011/05/'>May 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2011/04/'>April 2011</a>&nbsp;(2)</li>
+	<li><a href='http://www.pclinuxos.com/2011/03/'>March 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2011/02/'>February 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2011/01/'>January 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2010/12/'>December 2010</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2010/11/'>November 2010</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2010/10/'>October 2010</a>&nbsp;(7)</li>
+	<li><a href='http://www.pclinuxos.com/2010/09/'>September 2010</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2010/08/'>August 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2010/07/'>July 2010</a>&nbsp;(5)</li>
+	<li><a href='http://www.pclinuxos.com/2010/06/'>June 2010</a>&nbsp;(6)</li>
+	<li><a href='http://www.pclinuxos.com/2010/05/'>May 2010</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2010/04/'>April 2010</a>&nbsp;(4)</li>
+	<li><a href='http://www.pclinuxos.com/2010/03/'>March 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2010/02/'>February 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.pclinuxos.com/2010/01/'>January 2010</a>&nbsp;(1)</li>
+		</ul>
+		</div></div><!--sidebox end -->
+</div><!--/sidebar-left -->
+	</td>
+	
+	<td>
+    <div id="left-col">
+   	  <div id="nav-left">
+    	<div id="nav-right"> 
+	      <div id="nav">
+	        <ul>
+	          <li class="page_item current_page_item"><a href="http://www.pclinuxos.com/" title="Home">Home</a></li>
+			  <li class="page_item page-item-2"><a href="http://www.pclinuxos.com/about/">About PCLinuxOS</a></li>
+<li class="page_item page-item-7"><a href="http://www.pclinuxos.com/donations/">Help us out</a></li>
+<li class="page_item page-item-10 page_item_has_children"><a href="http://www.pclinuxos.com/get-pclinuxos/">Get PCLinuxOS</a></li>
+<li class="page_item page-item-12"><a href="http://www.pclinuxos.com/support/">Support</a></li>
+<li class="page_item page-item-14"><a href="http://www.pclinuxos.com/community/">Community</a></li>
+<li class="page_item page-item-16"><a href="http://www.pclinuxos.com/international/">International</a></li>
+<li class="page_item page-item-165"><a href="http://www.pclinuxos.com/contact-us/">Contact Us</a></li>
+<li class="page_item page-item-299"><a href="http://www.pclinuxos.com/forum/">Forum</a></li>
+<li class="page_item page-item-388"><a href="http://www.pclinuxos.com/merchandise/">Merchandise</a></li>
+	        </ul>
+	      </div><!-- /nav -->
+      	</div>
+      </div>
+
+    	
+	<div id="content-padding">
+    <div id="content">
+
+	
+		
+        <div class="post" id="post-3022">
+		  <table id="post-head">
+		  <tr>
+		  	<td id="head-date">
+			  <div class="date"><span>Feb</span> 19</div>
+		  	</td>
+		  	<td>
+		  <div class="title">
+          <h2><a href="http://www.pclinuxos.com/trinity-desktop-on-pclinuxos/" rel="bookmark" title="Permanent Link to Trinity Desktop on PCLinuxOS">Trinity Desktop on PCLinuxOS</a></h2>
+          <div class="postdata"><span class="category"><a href="http://www.pclinuxos.com/category/news/" rel="category tag">News</a></span> <span class="comments"><span>Comments Off<span class="screen-reader-text"> on Trinity Desktop on PCLinuxOS</span></span></span></div>
+		  </div>
+		  	</td>
+		  </tr>
+		  </table>
+		  
+          <div class="entry">
+            <p>Do you long for the days when your desktop was simple and easy to navigate while being light on resources? If yes then check out the Trinity (formerly KDE 3) Desktop on PCLinuxOS. Community ISO&#8217;s, and more information, available at: <strong><a href="http://trinity.mypclinuxos.com/">trinity mypclinuxos</p>
+<p><img class="alignnone" src="http://pclinuxos.com/photos/trinity.jpg" alt="" width="470" height="294" /></a></strong></p>
+<p>&nbsp;</p>
+            
+            <p class="submeta">written by <strong>admin</strong> 
+			            </p>
+          </div><!--/entry -->
+          
+        </div><!--/post -->
+
+		
+        <div class="post" id="post-3019">
+		  <table id="post-head">
+		  <tr>
+		  	<td id="head-date">
+			  <div class="date"><span>Feb</span> 19</div>
+		  	</td>
+		  	<td>
+		  <div class="title">
+          <h2><a href="http://www.pclinuxos.com/use-locale-management-tool-to-convert-pclinuxos-in-85-languages/" rel="bookmark" title="Permanent Link to Use Locale Management tool to convert PCLinuxOS in 85 Languages!">Use Locale Management tool to convert PCLinuxOS in 85 Languages!</a></h2>
+          <div class="postdata"><span class="category"><a href="http://www.pclinuxos.com/category/news/" rel="category tag">News</a></span> <span class="comments"><span>Comments Off<span class="screen-reader-text"> on Use Locale Management tool to convert PCLinuxOS in 85 Languages!</span></span></span></div>
+		  </div>
+		  	</td>
+		  </tr>
+		  </table>
+		  
+          <div class="entry">
+            <p>Did you know that you can convert your PCLinuxOS installation into one of 85 different languages with the simple click of a button? Locale Management (addlocale) can do it for you on PCLinuxOS!</p>
+<p><img class="alignnone" src="http://pclinuxos.com/photos/addlocale.jpg" alt="" width="394" height="483" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+            
+            <p class="submeta">written by <strong>admin</strong> 
+			            </p>
+          </div><!--/entry -->
+          
+        </div><!--/post -->
+
+		
+        <div class="post" id="post-3014">
+		  <table id="post-head">
+		  <tr>
+		  	<td id="head-date">
+			  <div class="date"><span>Feb</span> 18</div>
+		  	</td>
+		  	<td>
+		  <div class="title">
+          <h2><a href="http://www.pclinuxos.com/kernel-4-4-2-lts-now-available-for-pclinuxos-64/" rel="bookmark" title="Permanent Link to Kernel 4.4.2 LTS now available for PCLinuxOS 64!">Kernel 4.4.2 LTS now available for PCLinuxOS 64!</a></h2>
+          <div class="postdata"><span class="category"><a href="http://www.pclinuxos.com/category/news/" rel="category tag">News</a></span> <span class="comments"><span>Comments Off<span class="screen-reader-text"> on Kernel 4.4.2 LTS now available for PCLinuxOS 64!</span></span></span></div>
+		  </div>
+		  	</td>
+		  </tr>
+		  </table>
+		  
+          <div class="entry">
+            <p><strong>Kernel 4.4.2</strong> LTS is now available for PCLinuxOS 64. This is the latest stable long term support kernel available for Linux. This updated kernel brings in many sound and driver improvements. This package is available for installation through the Synaptic Software Manager. All new kernels install along side of your existing kernel so you can test run it for a while to make sure it is compatible with your hardware. Once it has been determined that it is working fine, you can then remove the older kernel.</p>
+<p><img class="alignnone" src="http://pclinuxos.com/photos/kernel.jpg" alt="" width="128" height="176" /></p>
+            
+            <p class="submeta">written by <strong>admin</strong> 
+			            </p>
+          </div><!--/entry -->
+          
+        </div><!--/post -->
+
+		
+        <div class="post" id="post-3012">
+		  <table id="post-head">
+		  <tr>
+		  	<td id="head-date">
+			  <div class="date"><span>Feb</span> 17</div>
+		  	</td>
+		  	<td>
+		  <div class="title">
+          <h2><a href="http://www.pclinuxos.com/thunderbird-email-updated-to-38-6-0-for-pclinuxos/" rel="bookmark" title="Permanent Link to Thunderbird Email updated to 38.6.0 for PCLinuxOS">Thunderbird Email updated to 38.6.0 for PCLinuxOS</a></h2>
+          <div class="postdata"><span class="category"><a href="http://www.pclinuxos.com/category/news/" rel="category tag">News</a></span> <span class="comments"><span>Comments Off<span class="screen-reader-text"> on Thunderbird Email updated to 38.6.0 for PCLinuxOS</span></span></span></div>
+		  </div>
+		  	</td>
+		  </tr>
+		  </table>
+		  
+          <div class="entry">
+            <p>The Mozilla Thunderbird Email client recently received a small bug fix update and is now available as part of your Synaptic Packager Manager updates if you have the Thunderbird application installed.</p>
+<p><img class="alignnone" src="http://pclinuxos.com/photos/thunderbird.jpg" alt="" width="201" height="201" /></p>
+            
+            <p class="submeta">written by <strong>admin</strong> 
+			            </p>
+          </div><!--/entry -->
+          
+        </div><!--/post -->
+
+		
+        <div class="post" id="post-3010">
+		  <table id="post-head">
+		  <tr>
+		  	<td id="head-date">
+			  <div class="date"><span>Feb</span> 17</div>
+		  	</td>
+		  	<td>
+		  <div class="title">
+          <h2><a href="http://www.pclinuxos.com/firefox-browser-updated-to-44-0-2/" rel="bookmark" title="Permanent Link to Firefox Browser updated to  44.0.2">Firefox Browser updated to  44.0.2</a></h2>
+          <div class="postdata"><span class="category"><a href="http://www.pclinuxos.com/category/news/" rel="category tag">News</a></span> <span class="comments"><span>Comments Off<span class="screen-reader-text"> on Firefox Browser updated to  44.0.2</span></span></span></div>
+		  </div>
+		  	</td>
+		  </tr>
+		  </table>
+		  
+          <div class="entry">
+            <p>The Mozilla Firefox browser was recently updated to version 44.0.2 for both 32 and 64 bit platforms. This update brings in some small bug fixes and security updates. This package will be part of your normal Synaptic Package manager updates if you have Firefox installed.</p>
+<p><img class="alignnone" src="http://pclinuxos.com/photos/firefox-logo.jpg" alt="" width="128" height="133" /></p>
+            
+            <p class="submeta">written by <strong>admin</strong> 
+			            </p>
+          </div><!--/entry -->
+          
+        </div><!--/post -->
+
+				<div class="page-nav-left">
+		<div class="page-nav-right">
+        <div class="page-nav"> <span class="previous-entries"><a href="http://www.pclinuxos.com/page/2/" >Previous Entries</a></span> <span class="next-entries"></span>
+        </div></div>
+        </div><!-- /page nav -->
+
+	
+      </div><!--/content -->
+</div> <div id="footer-left"> <div id="footer-right"> <div id="footer"> <span class="enki"> 
+<center>
+<br><br>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39343104-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</span></div> </div> </div>
+</center>
+
+    </div><!--/left-col -->
+
+	</td>
+
+	<td class="sidebars">
+<div class="dbx-group" id="sidebar-right">
+
+  <!--sidebox start --><div id="text-7" class="dbx-box widget_text"><h3 class="dbx-handle">Get PCLinuxOS</h3><div class="dbx-content">			<div class="textwidget"><a href="http://www.pclinuxos.com/?page_id=180">KDE Desktop</a><br>
+<a 
+<a href="http://www.pclinuxos.com/?page_id=188">LXDE Desktop</a><br>
+<a href="http://www.pclinuxos.com/?page_id=184">MATE Desktop</a><br>
+</div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-18" class="dbx-box widget_text"><h3 class="dbx-handle">Get a Chimpbox Computer</h3><div class="dbx-content">			<div class="textwidget">Introducing  <a href="http://www.chimpbox.us"><b>The Chimpbox</b></a><br>
+<center><a href="http://www.chimpbox.us"><img src="http://www.pclinuxos.com/photos/m350.jpg" alt="Hot Computer" height="71" width="128"></a><br>
+Tiny but powerful!</center></div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-17" class="dbx-box widget_text"><h3 class="dbx-handle">Support PCLinuxOS!</h3><div class="dbx-content">			<div class="textwidget"><center><a href="http://www.gofundme.com/pclinuxos-2016" target="_blank"><img class="size-full" title="gofundme" src="http://www.pclinuxos.com/photos/gofundme-little.jpg" alt="gofundme" width="169" height="45" /></a><br><b>or</b><br></center>
+<a href="https://gumroad.com/l/FGqC">PCLinuxOS $5/Mo Donation</a><br>
+<a href="https://gumroad.com/l/zpNB">PCLinuxOS $10/Mo Donation</a><br>
+<a href="https://gumroad.com/l/MPxaN">PCLinuxOS $25/Mo Donation</a><br><br>
+<a href="https://gum.co/mMhE">PCLinuxOS $5/Yr Donation</a><br>
+<a href="https://gum.co/kATd">PCLinuxOS $10/Yr Donation</a><br>
+<a href="https://gum.co/McTK">PCLinuxOS $25/Yr Donation</a><br>
+<a href="https://gum.co/MajE">PCLinuxOS $50/Yr Donation</a><br></center></div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-9" class="dbx-box widget_text"><h3 class="dbx-handle">Support</h3><div class="dbx-content">			<div class="textwidget"><a href="http://www.pclinuxos.com/forum">PCLinuxOS Forum</a><br>
+<a href="http://pclinuxoshelp.com/index.php/Main_Page">PCLinuxOS Wiki</a><br>
+<a href="http://webchat.freenode.net/?channels=pclinuxos-support&uio=OT10cnVlJjExPTE5NQ64">PCLinuxOS Live Chat Support</a><br>
+</div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-16" class="dbx-box widget_text"><h3 class="dbx-handle">Social Media</h3><div class="dbx-content">			<div class="textwidget"><a title="PCLInuxOS Magazine" href="http://twitter.com/iluvpclinuxos" target="_blank">PCLinuxOS Twitter Feed</a><br></div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-11" class="dbx-box widget_text"><h3 class="dbx-handle">Related Web Sites</h3><div class="dbx-content">			<div class="textwidget"><a title="PCLInuxOS Magazine" href="http://pclosmag.com/" target="_blank">PCLinuxOS Magazine</a><br>
+</div>
+		</div></div><!--sidebox end --><!--sidebox start --><div id="text-10" class="dbx-box widget_text"><h3 class="dbx-handle">PCLinuxOS International</h3><div class="dbx-content">			<div class="textwidget"><a title="Brazil" href="http://www.pclinuxosbrasil.com.br/" rel="friend kin" target="_blank">PCLInuxOS BR</a><br>
+<a title="CZech Republic" rel="friend kin" href="http://www.pclinuxos.cz/" target="_blank">PCLInuxOS CZ</a><br>
+<a title="Germany" rel="friend kin" href="http://pclos.eu/"
+target="_blank">PCLInuxOS DE</a><br>
+<a title="Denmark" rel="friend kin" href="http://www.pclinuxos.dk/news.php" target="_blank">PCLinuxOS DK</a><br>
+<a title="Italy" href="http://pclinuxos.it/" target="_blank">PCLinuxOS IT</a><br>
+<a title="Dutch (Nederlands)" rel="friend kin" href="http://www.pclinuxos.nl/" target="_blank">PCLinuxOS NL</a><br>
+<a title="Turkey" rel="friend parent" href="http://www.bekozap.com/" target="_blank">PCLinuxOS TR</a><br>
+<a title="Russian" rel="friend parent" href="http://pclinuxos.su/" target="_blank">PCLinuxOS SU</a><br>
+</div>
+		</div></div><!--sidebox end -->
+</div><!--/sidebar -->
+	</td>
+</tr>
+</table>
+    <hr class="hidden" />
+	
+  </div><!--/wrapper -->
+
+</div><!--/page -->
+
+<script type='text/javascript' src='http://www.pclinuxos.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+
+
+</body>
+</html>
+<!-- Dynamic page generated in 0.127 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-25 04:18:17 -->
+
+<!-- super cache -->

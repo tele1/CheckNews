@@ -1,0 +1,64 @@
+#! /bin/bash
+
+
+#-----------------------------
+
+function Func_add() {
+# count
+number1=$[$(tail -n 1 data/lists | awk '{printf $1}')+1]
+
+# if file is empty
+if  cat data/lists | grep -q ^$ ; then
+	echo "1 $ENTRY" > data/lists
+	curl -s  "$ENTRY" > data/webs/${number1}.0.marker
+else
+	echo "$number1 $ENTRY" >> data/lists
+	curl -s  "$ENTRY" > data/webs/${number1}.0.marker
+fi
+
+#  if "Compare only line" then open webpage.
+if [[ "$CHECKBOX2" == "true" ]]; then  xdg-open data/webs/${number1}.0.marker ; data/add_filter ; fi
+
+}
+export -f Func_add
+
+
+
+GTKDIALOG=gtkdialog
+
+export add='
+<window  title="Download source">
+<vbox>
+	<text>
+		<label>Add Link:</label>
+	</text>
+	<entry>
+		<variable>ENTRY</variable>
+	</entry>
+			<checkbox  active="true">
+				<label>Compare whole page</label>
+				<variable>CHECKBOX1</variable>
+				<action>if true clear:CHECKBOX2</action>
+			</checkbox>
+			<checkbox  active="false">
+				<label>Compare only line</label>
+				<variable>CHECKBOX2</variable>
+				<action>if true clear:CHECKBOX1</action>
+			</checkbox>
+	<hbox>
+
+		<button ok>
+				<action>Func_add</action>
+				<action>notify-send "Saved all: $CHECKBOX1"</action>
+				<variable>addwindow</variable>
+				<action type="closewindow">"addwindow"</action>
+		</button>
+
+	</hbox>
+</vbox>
+</window>
+'
+gtkdialog -c  --program add
+
+
+

@@ -1,0 +1,57 @@
+#! /bin/sh
+
+
+
+
+
+
+
+
+
+
+function Func_filter() {
+# count
+number1=$[$(cat data/lists | wc -l)+1]
+echo "$number1 $ENTRY" >> data/lists
+curl -s  "$ENTRY" > data/webs/${number1}.log
+xdg-open data/webs/${number1}.log
+}
+export -f Func_filter
+
+
+GTKDIALOG=gtkdialog
+
+export filtr='
+<window  title="Add Filtr">
+<vbox>
+	<text>
+		<label>Number Line:</label>
+	</text>
+	<entry>
+		<variable>ENTRY1</variable>
+	</entry>
+
+	<text>
+		<label>Content:</label>
+	</text>
+	<entry>
+		<variable>ENTRY2</variable>
+	</entry>
+
+	<hbox>
+
+		<button ok>
+				<action>Func_filter</action>
+				<action>notify-send "The End."</action>
+				<variable>filtrwindow</variable>
+				<action type="closewindow">"filtrwindow"</action>
+		</button>
+
+	</hbox>
+</vbox>
+</window>
+'
+gtkdialog -c  --program filtr
+
+
+

@@ -1,0 +1,919 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" xmlns:fb="http://ogp.me/ns/fb#">		  	 <head>
+<base href="http://www.linuxportal.pl/" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="Content-Language" content="pl" />
+<title>Wiadomości / Oczekujące - LinuxPortal.pl</title>
+<meta name="title" content="Wiadomości / Oczekujące" />
+<meta name="description" content="Lista oczekujących na zatwierdzenie wiadomości dodanych przez użytkowników LinuxPortal.pl." />
+<meta name="keywords" content="wiadomości, newsy, wpisy z blogów, wspólne tematy, informatyka, linux, open source, android" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Last-Modified" content="Sun, 02 Oct 2016 20:32:51  GMT+1" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:site_name" content="LinuxPortal.pl" />
+<meta property="og:image" content="http://www.linuxportal.pl/templates/css/loga/Linuxportal.gif" />
+<html itemscope itemtype="http://schema.org/Article">
+<link rel="stylesheet" type="text/css" media="all" href="/templates/css/w_i_z.css?52" />
+<link rel="stylesheet" type="text/css" media="all" href="/templates/css/styl_linuxrss_testy_zakladki_serwisy.css?12" />
+<link rel="stylesheet" type="text/css" media="all" href="/templates/css/glosowanie.css?7" />
+<link type="text/css" rel="stylesheet" media="all" href="/templates/css/plansza.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/templates/css/mobilny.css?38" />
+<link type="text/css" rel="stylesheet" media="all" href="/templates/css/mobilny_w.css?11" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<script language="javascript" type="text/javascript" src="/includes/js/mootools-core-1.5.1-full-nocompat-yc.js"></script>
+<script language="javascript" type="text/javascript" src="/includes/js/mootools-more-1.5.1-full-nocompat-yc.js"></script>
+<script language="javascript" type="text/javascript" src="/includes/js/submenu_pop_nast.js"></script>
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / wiadomości" href="http://feeds.linuxportal.pl/LinuxPortalpl-news" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / wiadomości / oczekujące" href="http://feeds.linuxportal.pl/LinuxPortalpl-news-oczekujace" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / wiadomości / wszystkie" href="http://feeds.linuxportal.pl/LinuxPortalpl-news-wszystkie" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / wpisy z blogów" href="http://feeds.linuxportal.pl/LinuxPortalpl-wpisy-z-blogow" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / blogi" href="http://feeds.linuxportal.pl/LinuxPortalpl-blogi" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / ofertypracy" href="http://feeds.linuxportal.pl/LinuxPortalpl-ofertypracy" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / szkolenia" href="http://feeds.linuxportal.pl/LinuxPortalpl-szkolenia" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / firmy" href="http://feeds.linuxportal.pl/LinuxPortalpl-firmy" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / usługi" href="http://feeds.linuxportal.pl/LinuxPortalpl-uslugi" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / burze mózgów" href="http://feeds.linuxportal.pl/LinuxPortalpl-burze-mozgow" />
+<link rel="alternate" type="application/rss+xml" title="LinuxPortal.pl / konkursy" href="http://feeds.linuxportal.pl/LinuxPortalpl-konkursy" />
+<link rel="publisher" href="https://plus.google.com/104106246037681018682" />
+<script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-21433029-1']);  _gaq.push(['_trackPageview']);  _gaq.push(['second._setAccount', 'UA-893508-4']);  _gaq.push(['second._trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script></head>
+<body>	 		  <div id="fb-root"></div>		  <script>(function(d, s, id) {			var js, fjs = d.getElementsByTagName(s)[0];			if (d.getElementById(id)) return;			js = d.createElement(s); js.id = id;			js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=222436117797494";			fjs.parentNode.insertBefore(js, fjs);		  }(document, 'script', 'facebook-jssdk'));</script>		  
+	 <div id="naglowek">
+
+		  
+		  <!-- <div class="div_puste"></div> -->
+
+		  <div id="naglowek2a" class="lista_ogolna">
+			   
+			   <div id="naglowek2">
+					
+					 <div id="logo_portalu">
+
+						 
+						 <a id="logo_portalu_a" href="/" title="LinuxPortal.pl - Rozmawiamy o Linuksie!">
+							  <img src="/templates/css/loga/Linuxportal.gif" hspace="0" vspace="0" border="0" width="219" alt="LinuxPortal.pl" />
+						 </a>
+						 <h3>
+							  <a href="/" title="LinuxPortal.pl - Rozmawiamy o Linuksie!">
+								   Rozmawiamy o Linuksie!
+							  </a>
+						 </h3>
+
+
+
+						 
+						 <div class="div_puste"></div>
+					</div><!-- logo_portalu -->
+
+							  <div id="linki_usera">
+
+			   			   
+					<a rel="nofollow" class="ddzwl zao2 link_zaloguj" title="Zaloguj się za pomocą konta LinuxPortal.pl" href="https://www.linuxportal.pl/logowanie.html">Zaloguj się:</a>
+
+					<a id="ikony_zaloguj" rel="nofollow" style="float: left; width: 105px;" title="Zaloguj się do LinuxPortal.pl" href="https://www.linuxportal.pl/logowanie.html">
+						 <img src="/images/loga_zaloguj_sie.png" width="105" height="22" border="0" alt="LinuxPortal.pl" />
+					</a>
+
+					
+		  </div><!-- linki_usera -->
+		  
+			   <div id="menu_globalne_gora" class="menu_poz_i_roz">
+
+					<span class="s_p_m">/</span> 
+					<span class="pagenav zao4" id="active_menu_dlaw">Wiadomości <u>▼</u></span>
+
+					<div class="lista_p_i_r">
+						 
+						 <ul>
+							  
+							  <li class="s_g"><a href="/">Strona główna</a></li>
+
+							  <li class="brak_dost"><a href="/aktualnosci">Aktualności</a></li>
+
+							  <li class="wlaczn"><a href="/news">Wiadomości</a></li>
+
+							  <li><a href="/wpisy">Wpisy i Blogi</a></li>
+
+							   <li><a href="/linux-programy">Linux i Programy</a></li>
+
+							   <li><a href="/oferty">Oferty firm</a></li>
+
+							   <li><a href="/osoby">Społeczność</a></li>
+
+							   
+							   <li class="brak_dost"><a href="/burze-mozgow">Rozwijaj LinuxPortal.pl</a></li>
+
+							  
+						 </ul>
+					</div>
+			   </div>
+
+			   <!-- <div class="div_puste"></div> -->
+			   
+					<div class="div_puste"></div>
+			   </div><!--naglowek2-->
+
+			   <div class="div_puste"></div>
+		  </div><!--naglowek2a-->
+		  
+		  <div class="div_puste"></div>
+
+	 </div> <!-- naglowek -->
+	 	 <div id="glowne_dane" class="lista_ogolna">		  		  <div id="calosc">			   
+					<div id="vertical_slide" class="modulr" style="font-size: 15px; text-align: center; background-color: #fff;  margin-bottom: 20px;">
+
+						 
+	 <div class="" style="height: 14px;">
+
+		  
+		  <a id="v_toggle" class="a" style="float: right;" href="/komunikaty/kom5/zwin">&#9650;&#160;Zwiń komunikat</a>
+		  
+		  <div class="puste"></div>
+	 </div>
+
+	 			   <h2>
+					Wpłać dowolną kwotę na rozwój LinuxPortal.pl
+			   </h2>
+			   		  <p class="ostatni_wiersz" style="font-size: 13px; text-align: center; padding-bottom: 5px; max-width:500px;">
+			   
+			   						 
+					Jeśli LinuxPortal.pl jest dla Ciebie ważnym miejscem w Internecie to prosimy Cię o wpłatę dowolnej kwoty na rozwój portalu.<br />Nawet 1 zł. <br />
+					Bardzo dziękujemy!
+								   
+		  </p>
+		  
+		  			   <p class="ostatni_wiersz">
+					<a href="https://www.linuxportal.pl/wplaty" class="przycisk blue2 zao7 p8">Wybierz metodę wpłaty</a>
+			   </p>
+			   
+						 <div class="div_puste"></div>
+					</div>
+
+					
+	 <div id="czesc_glowna">
+		  <div id="czesc_glowna1">
+
+			   
+	 <div id="czesc_naglowek" class="zao7">
+		  <div id="czesc_naglowek1" class="zao7">
+
+			   
+	 <div id="menu_dzialu">
+		  
+		  
+		  <div id="menu_dzialu_pozycje" class="menu_poz_i_roz  wiadomosci">
+			   <span class="pagenav zao4" id="active_menu_dlaw">Wiadomości <u>▼</u></span>
+
+			   <div class="lista_p_i_r">
+					<ul>
+						 <li class="wlaczn"><a title='Wiadomości' href='/news'>Wiadomości</a></li><li class="k"> | </li><li><a title='Tematy' href='/tematy'>Tematy</a></li><li class="k"> | </li><li><a title='Źródła wiadomości' href='/zrodla'>Źródła wiadomości</a></li>					</ul>
+			   </div>
+		  </div>
+		  <div style='float: right;'>		  
+					<div id="menu_dzialu_dodaj" class="menu_poz_i_roz  wiadomosci">
+						 <span class="pagenav zao4">+ Dodaj <u>▼</u></span>
+
+						 <div class="lista_p_i_r">
+							  <ul>
+
+								   <li><a title='+Dodaj wiadomość' href='/news/dodaj?wl=1'>+ Dodaj wiadomość</a></li>							  </ul>
+						 </div>
+					</div>
+
+					</div>		  <div class="div_puste" style="float: none;"></div>
+	 </div>
+	 					<div id="menu_serwisu">
+						 
+						 
+			   <div id="menu_serwisu_pozycje_2" class="menu_poz_i_roz wiadomosci">
+					<span class="pagenav zao4" id="active_menu_usera">oczekujące <u>▼</u></span>
+
+					<div class="lista_p_i_r">
+
+						 <ul>
+							  <li><a href='/news'>warto przeczytać</a></li><li class="k"> | </li><li class="wlaczcz"><a href='/news/oczekujace'>oczekujące <strong>(5)</strong></a></li><li class="k"> | </li><li><a href='/news/wszystkie'>wszystkie</a></li><li class="k"> | </li><li>
+	 <div id="menu_top_rozw" class="menu_roz">
+
+		  <span class="pagenav zao4">TOP <u>▼</u></span>
+			   
+		  <div class="lista_r">
+			   <ul>
+					
+						 <li><a href="/news/top24godz?wl=1">TOP 24 godz</a></li>
+						 <li><a href="/news/top7dni?wl=1">TOP 7 dni</a></li>
+						 <li><a href="/news/top30dni?wl=1">TOP 30 dni</a></li>
+						 <li><a href="/news/top?wl=1">TOP</a></li>
+
+						 			   </ul>
+			   
+		  </div>
+
+	 </div>
+
+	 <!-- <div class="div_puste"></div> -->
+	 </li><li class="k"> | </li><li>
+	 <div id="menu_top_rozw" class="menu_roz">
+
+		  <span class="pagenav zao4">popularne <u>▼</u></span>
+			   
+		  <div class="lista_r">
+			   <ul>
+					
+						 <li><a href="/news/popularne24godz?wl=1">Popularne 24 godz</a></li>
+						 <li><a href="/news/popularne7dni?wl=1">Popularne 7 dni</a></li>
+						 <li><a href="/news/popularne30dni?wl=1">Popularne 30 dni</a></li>
+						 <li><a href="/news/popularne?wl=1">Popularne</a></li>
+
+						 			   </ul>
+			   
+		  </div>
+
+	 </div>
+
+	 <!-- <div class="div_puste"></div> -->
+	 </li>						 </ul>
+					</div>
+			   </div>
+
+			   
+	 <div id="czesc_szukanie">
+
+		<script language="JavaScript" type="text/javascript">
+		<!--
+		function validate(){
+			if ((document.ueform.search=="") || (document.ueform.search.value=="")) {
+				alert('_UE_SEARCH_ALERT');
+				return false;
+			} else {
+				return true;
+			}
+		}
+		//-->
+		</script>
+
+
+		
+		<form name="ueform" method="get" action="/news/oczekujace" enctype="multipart/form-data">
+
+			
+			<span id="formularz_szukanie">
+
+				
+				<!--searchword-->
+								<input class="inputbox" type="text" style="height: 16px; display: inline;" name="search" size="10" maxlength="35"  value='' />
+				<!-- <input type="submit" name="submit" value="Szukaj" class="button" /> -->
+				<input type="submit" style="display: inline; padding: 1px 5px;" value="Szukaj" class="przycisk blue2 zao4" />
+								
+				<!-- <br />
+				<small><font color="#969696">szuka wg nazw oraz opisu programów</font></small> -->
+
+			</span>
+
+					</form>
+
+        </div> <!-- czesc_szukanie -->
+        <!-- 	<div class="div_puste"></div> -->
+        						 <div class="div_puste"></div>
+					</div>
+						
+					
+			   <div class="div_puste"></div>
+		  </div>
+	 </div>
+
+	 
+			   <div id="czesc_lista">
+
+				    <div id="czesc_lista1">
+
+						 
+					<div id="vertical_slide" class="modulr" style="font-size: 16px; text-align: center; background-color: #fff;  margin-bottom: 20px;">
+
+						 
+	 <div class="" style="height: 14px;">
+
+		  
+		  <a id="v_toggle" class="a" style="float: right;" href="/komunikaty/kom1/zwin">&#9650;&#160;Zwiń komunikat dot. głosowania</a>
+		  
+		  <div class="puste"></div>
+	 </div>
+
+	 Głosuj na Wiadomości, które wg Ciebie warto przeczytać<br />
+								   i wpływaj na to co inni przeczytają!
+							  <p class="ostatni_wiersz">
+								   Jeśli chcesz być na bieżąco ze wszystkimi Wiadomościami<br />to przejdź do <a href="/news/wszystkie">Wiadomości wszystkie</a>.
+							  </p>
+							  
+						 <div class="div_puste"></div>
+					</div>
+
+					
+	 <div class="lista_wizyt zao7 widok_aktywnosc">
+
+		  <div style='padding: 0 0 0 61px;'><a class='' style='float: left; margin: 8px 10px 0 0' href='/zrodla/przystajnik' title="Pokaż Stronę Źródła: Przystajnik"><img style='max-width: 100%;' src="/images/linuxrss/tn104.png" width="50" alt="logo: Przystajnik"  /></a>
+<div style='font-size: 14px; padding: 1px 0 0 60px;'> <a style='font-weight: bold; font-size: 14px;' href='/zrodla/przystajnik' title='Przystajnik'>Przystajnik</a>   </div><div style='font-size: 11px; padding: 0 0 8px; margin-left: 60px;'><span style='padding: 0 0 0 1px;' title='Dodane do Oczekujące: niedziela,  2 październik 2016r., g.12:40'>7 godz. temu</span></div></div><div class="div_puste"></div>					<div style="position: relative;">
+						 
+						 <div class="modul_glosowania_0">
+							  <div id="status-186393" class="status lista_nowa zao7">  </div><div id='modul_glosowania' class='modul_glosowania lista_nowa zao7'><div class='modul_glosowania_2 lista_nowa_2'><div class='czesc_p' style='margin-bottom: 2px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="like-186393 like" style="padding: 0; float: none;"><img title="tak, warto przeczytać" class="lbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='tak, warto przeczytać' />&nbsp;</a><span id="lc-186393" class="lc" style="bottom: 3px; float: none; position: relative; line-height: 11px;">+1</span></div><div class='polecam zao7' style='padding: 0 2px;'>warto<br />przeczytać<br />?</div><div class='czesc_m' style='margin-top: 4px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="unlike-186393 unlike" style="padding: 0; float: none;"><img title="nie warto czytać" class="unlbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='nie warto czytać' />&nbsp;</a><span id="unlc-186393" class="unlc" style="bottom: 4px; float: none; position: relative; line-height: 11px;">-1</span></div></div> <div class='div_puste'></div></div> 						 </div>
+
+						 
+		  <div class="lista_wizyt_kol_tytul_news" style='margin-left: 60px; margin-top: 5px;  padding: 5px 5px; border: 2px solid #EFEFF8;'>
+
+			   
+								   <h2>
+										<a target="_blank" href="http://www.linuxportal.pl/newsbar/windows-7-i-8-1-odlatujana-zime-a-microsoft-zaklada-bazena-githubie-id186393">Windows 7 i 8.1 odlatują na zimę a Microsoft zakłada bazę na Githubie</a>
+										<span style="display: inline; font-size: 16px; padding: 0; margin: 0;">&#8663;</span>
+								   </h2>
+
+								   
+			   <div class="wpiskrotki" style='padding-top: 2px;'>
+			   
+					
+							  <a class="linkopis" style='padding-top: 14px;' href="/news/windows-7-i-8-1-odlatujana-zime-a-microsoft-zaklada-bazena-githubie-id186393"><span>To już oficjalne stanowisko Microsoftu w sprawie „starych” systemów Windows 7 i Windows 8.1. Jesienią pożegnają się na dobre z użytkownikami i od 1 listopada 2016 roku nie uświadczymy już w sklepach produktów z innymi ...</span></a>
+
+							  			   </div>
+
+			   						 
+			   <div class="div_puste"></div>
+			   
+			   <span><span class='div_puste'></span></span>		  </div><!-- lista_wizyt_kol_tytul  -->
+
+		  					</div>
+					
+					<div style='margin-left: 61px; padding-top: 6px; '>
+
+						 
+						 <div class='div_puste'></div>
+						 
+					</div>
+					
+		  <div class="div_puste"></div>
+
+		  
+       </div><!-- lista_wizyt -->
+       
+	 <div class="lista_wizyt zao7 widok_aktywnosc">
+
+		  <div style='padding: 0 0 0 61px;'><a class='' style='float: left; margin: 8px 10px 0 0' href='/zrodla/przystajnik' title="Pokaż Stronę Źródła: Przystajnik"><img style='max-width: 100%;' src="/images/linuxrss/tn104.png" width="50" alt="logo: Przystajnik"  /></a>
+<div style='font-size: 14px; padding: 1px 0 0 60px;'> <a style='font-weight: bold; font-size: 14px;' href='/zrodla/przystajnik' title='Przystajnik'>Przystajnik</a>   </div><div style='font-size: 11px; padding: 0 0 8px; margin-left: 60px;'><span style='padding: 0 0 0 1px;' title='Dodane do Oczekujące: niedziela,  2 październik 2016r., g.12:40'>7 godz. temu</span></div></div><div class="div_puste"></div>					<div style="position: relative;">
+						 
+						 <div class="modul_glosowania_0">
+							  <div id="status-186392" class="status lista_nowa zao7">  </div><div id='modul_glosowania' class='modul_glosowania lista_nowa zao7'><div class='modul_glosowania_2 lista_nowa_2'><div class='czesc_p' style='margin-bottom: 2px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="like-186392 like" style="padding: 0; float: none;"><img title="tak, warto przeczytać" class="lbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='tak, warto przeczytać' />&nbsp;</a><span id="lc-186392" class="lc" style="bottom: 3px; float: none; position: relative; line-height: 11px;">+2</span></div><div class='polecam zao7' style='padding: 0 2px;'>warto<br />przeczytać<br />?</div><div class='czesc_m' style='margin-top: 4px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="unlike-186392 unlike" style="padding: 0; float: none;"><img title="nie warto czytać" class="unlbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='nie warto czytać' />&nbsp;</a><span id="unlc-186392" class="unlc" style="bottom: 4px; float: none; position: relative; line-height: 11px;">&nbsp;0</span></div></div> <div class='div_puste'></div></div> 						 </div>
+
+						 
+		  <div class="lista_wizyt_kol_tytul_news" style='margin-left: 60px; margin-top: 5px;  padding: 5px 5px; border: 2px solid #EFEFF8;'>
+
+			   
+								   <h2>
+										<a target="_blank" href="http://www.linuxportal.pl/newsbar/lista-obecnosci-na-steam-linux-0-94-id186392">Lista obecności na Steam: Linux 0.94%</a>
+										<span style="display: inline; font-size: 16px; padding: 0; margin: 0;">&#8663;</span>
+								   </h2>
+
+								   
+			   <div class="wpiskrotki" style='padding-top: 2px;'>
+			   
+					
+							  <a class="linkopis" style='padding-top: 14px;' href="/news/lista-obecnosci-na-steam-linux-0-94-id186392"><span>Łaska pańska na pstrych statystykach jeździ. Choć w miesiącu wrześniu liczba graczy w statystykach platformy Steam nadal nie przekroczyła 1%, to kilka faktów intryguje. Pierwszy to taki, że od ostatniego pomiaru ...</span></a>
+
+							  			   </div>
+
+			   						 
+			   <div class="div_puste"></div>
+			   
+			   <span><span class='div_puste'></span></span>		  </div><!-- lista_wizyt_kol_tytul  -->
+
+		  					</div>
+					
+					<div style='margin-left: 61px; padding-top: 6px; '>
+
+						 
+						 <div class='div_puste'></div>
+						 
+					</div>
+					
+		  <div class="div_puste"></div>
+
+		  
+       </div><!-- lista_wizyt -->
+       
+	 <div class="lista_wizyt zao7 widok_aktywnosc">
+
+		  <div style='padding: 0 0 0 61px;'><a class='' style='float: left; margin: 8px 10px 0 0' href='/zrodla/dobreprogramy-pl' title="Pokaż Stronę Źródła: DobreProgramy.pl"><img style='max-width: 100%;' src="/images/linuxrss/tn64.png" width="50" alt="logo: DobreProgramy.pl"  /></a>
+<div style='font-size: 14px; padding: 1px 0 0 60px;'> <a style='font-weight: bold; font-size: 14px;' href='/zrodla/dobreprogramy-pl' title='DobreProgramy.pl'>DobreProgramy.pl</a>   </div><div style='font-size: 11px; padding: 0 0 8px; margin-left: 60px;'><span style='padding: 0 0 0 1px;' title='Dodane do Oczekujące: sobota,  1 październik 2016r., g.13:08'>1 dzień i 7 godz. temu</span></div></div><div class="div_puste"></div>					<div style="position: relative;">
+						 
+						 <div class="modul_glosowania_0">
+							  <div id="status-186384" class="status lista_nowa zao7">  </div><div id='modul_glosowania' class='modul_glosowania lista_nowa zao7'><div class='modul_glosowania_2 lista_nowa_2'><div class='czesc_p' style='margin-bottom: 2px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="like-186384 like" style="padding: 0; float: none;"><img title="tak, warto przeczytać" class="lbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='tak, warto przeczytać' />&nbsp;</a><span id="lc-186384" class="lc" style="bottom: 3px; float: none; position: relative; line-height: 11px;">+3</span></div><div class='polecam zao7' style='padding: 0 2px;'>warto<br />przeczytać<br />?</div><div class='czesc_m' style='margin-top: 4px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="unlike-186384 unlike" style="padding: 0; float: none;"><img title="nie warto czytać" class="unlbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='nie warto czytać' />&nbsp;</a><span id="unlc-186384" class="unlc" style="bottom: 4px; float: none; position: relative; line-height: 11px;">&nbsp;0</span></div></div> <div class='div_puste'></div></div> 						 </div>
+
+						 
+		  <div class="lista_wizyt_kol_tytul_news" style='margin-left: 60px; margin-top: 5px;  padding: 5px 5px; border: 2px solid #EFEFF8;'>
+
+			   
+								   <h2>
+										<a target="_blank" href="http://www.linuxportal.pl/newsbar/firefox-z-googleowymi-wtyczkami-pdf-i-flash-oto-ciag-dalszy-chromifikacji-id186384">Firefox z google&#039;owymi wtyczkami PDF i Flash – oto ciąg dalszy chromifikacji</a>
+										<span style="display: inline; font-size: 16px; padding: 0; margin: 0;">&#8663;</span>
+								   </h2>
+
+								   
+			   <div class="wpiskrotki" style='padding-top: 2px;'>
+			   
+					
+							  <a class="linkopis" style='padding-top: 14px;' href="/news/firefox-z-googleowymi-wtyczkami-pdf-i-flash-oto-ciag-dalszy-chromifikacji-id186384"><span>Project Mortar oficjalnie ma pozwolić Mozilli na lepsze
+skupienie się na postępie technologii webowych i zmniejszenie
+złożoności i długoterminowych kosztów utrzymania Firefoksa.
+Faktycznie jest przyznaniem się do tego, że dziś przeglądarka,
+która ocaliła nas ...</span></a>
+
+							  			   </div>
+
+			   						 
+			   <div class="div_puste"></div>
+			   
+			   <span><span class='div_puste'></span></span>		  </div><!-- lista_wizyt_kol_tytul  -->
+
+		  					</div>
+					
+					<div style='margin-left: 61px; padding-top: 6px; '>
+
+						 
+						 <div class='div_puste'></div>
+						 
+					</div>
+					
+		  <div class="div_puste"></div>
+
+		  
+       </div><!-- lista_wizyt -->
+       
+	 <div class="lista_wizyt zao7 widok_aktywnosc">
+
+		  <div style='padding: 0 0 0 61px;'><a class='' style='float: left; margin: 8px 10px 0 0' href='/zrodla/przystajnik' title="Pokaż Stronę Źródła: Przystajnik"><img style='max-width: 100%;' src="/images/linuxrss/tn104.png" width="50" alt="logo: Przystajnik"  /></a>
+<div style='font-size: 14px; padding: 1px 0 0 60px;'> <a style='font-weight: bold; font-size: 14px;' href='/zrodla/przystajnik' title='Przystajnik'>Przystajnik</a>   </div><div style='font-size: 11px; padding: 0 0 8px; margin-left: 60px;'><span style='padding: 0 0 0 1px;' title='Dodane do Oczekujące: sobota,  1 październik 2016r., g.13:08'>1 dzień i 7 godz. temu</span></div></div><div class="div_puste"></div>					<div style="position: relative;">
+						 
+						 <div class="modul_glosowania_0">
+							  <div id="status-186382" class="status lista_nowa zao7">  </div><div id='modul_glosowania' class='modul_glosowania lista_nowa zao7'><div class='modul_glosowania_2 lista_nowa_2'><div class='czesc_p' style='margin-bottom: 2px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="like-186382 like" style="padding: 0; float: none;"><img title="tak, warto przeczytać" class="lbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='tak, warto przeczytać' />&nbsp;</a><span id="lc-186382" class="lc" style="bottom: 3px; float: none; position: relative; line-height: 11px;">+3</span></div><div class='polecam zao7' style='padding: 0 2px;'>warto<br />przeczytać<br />?</div><div class='czesc_m' style='margin-top: 4px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="unlike-186382 unlike" style="padding: 0; float: none;"><img title="nie warto czytać" class="unlbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='nie warto czytać' />&nbsp;</a><span id="unlc-186382" class="unlc" style="bottom: 4px; float: none; position: relative; line-height: 11px;">-1</span></div></div> <div class='div_puste'></div></div> 						 </div>
+
+						 
+		  <div class="lista_wizyt_kol_tytul_news" style='margin-left: 60px; margin-top: 5px;  padding: 5px 5px; border: 2px solid #EFEFF8;'>
+
+			   
+								   <h2>
+										<a target="_blank" href="http://www.linuxportal.pl/newsbar/microsoft-poleca-skype-1-9-dla-linuksa-id186382">Microsoft poleca: Skype 1.9 dla Linuksa</a>
+										<span style="display: inline; font-size: 16px; padding: 0; margin: 0;">&#8663;</span>
+								   </h2>
+
+								   
+			   <div class="wpiskrotki" style='padding-top: 2px;'>
+			   
+					
+							  <a class="linkopis" style='padding-top: 14px;' href="/news/microsoft-poleca-skype-1-9-dla-linuksa-id186382"><span>Pomimo tego, że to produkt (podkupiony) Microsoftu, pomimo tego, że istnieją inne – nawet i lepsze – komunikatory, na przekór trendom i opiniom – Skype ma się dobrze. Używa go przeciętnie 8 ...</span></a>
+
+							  			   </div>
+
+			   						 
+			   <div class="div_puste"></div>
+			   
+			   <span><span class='div_puste'></span></span>		  </div><!-- lista_wizyt_kol_tytul  -->
+
+		  					</div>
+					
+					<div style='margin-left: 61px; padding-top: 6px; '>
+
+						 
+						 <div class='div_puste'></div>
+						 
+					</div>
+					
+		  <div class="div_puste"></div>
+
+		  
+       </div><!-- lista_wizyt -->
+       
+	 <div class="lista_wizyt zao7 widok_aktywnosc">
+
+		  <div style='padding: 0 0 0 61px;'><a class='' style='float: left; margin: 8px 10px 0 0' href='/zrodla/dobreprogramy-pl' title="Pokaż Stronę Źródła: DobreProgramy.pl"><img style='max-width: 100%;' src="/images/linuxrss/tn64.png" width="50" alt="logo: DobreProgramy.pl"  /></a>
+<div style='font-size: 14px; padding: 1px 0 0 60px;'> <a style='font-weight: bold; font-size: 14px;' href='/zrodla/dobreprogramy-pl' title='DobreProgramy.pl'>DobreProgramy.pl</a>   </div><div style='font-size: 11px; padding: 0 0 8px; margin-left: 60px;'><span style='padding: 0 0 0 1px;' title='Dodane do Oczekujące: sobota,  1 październik 2016r., g.13:08'>1 dzień i 7 godz. temu</span></div></div><div class="div_puste"></div>					<div style="position: relative;">
+						 
+						 <div class="modul_glosowania_0">
+							  <div id="status-186381" class="status lista_nowa zao7">  </div><div id='modul_glosowania' class='modul_glosowania lista_nowa zao7'><div class='modul_glosowania_2 lista_nowa_2'><div class='czesc_p' style='margin-bottom: 2px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="like-186381 like" style="padding: 0; float: none;"><img title="tak, warto przeczytać" class="lbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='tak, warto przeczytać' />&nbsp;</a><span id="lc-186381" class="lc" style="bottom: 3px; float: none; position: relative; line-height: 11px;">+3</span></div><div class='polecam zao7' style='padding: 0 2px;'>warto<br />przeczytać<br />?</div><div class='czesc_m' style='margin-top: 4px; padding: 0; text-align: center; float: none; width: auto;'><a href='https://www.linuxportal.pl/logowanie.html' class="unlike-186381 unlike" style="padding: 0; float: none;"><img title="nie warto czytać" class="unlbg-default jlk" src="/templates/css/glosowanie/pixel.gif" alt='nie warto czytać' />&nbsp;</a><span id="unlc-186381" class="unlc" style="bottom: 4px; float: none; position: relative; line-height: 11px;">&nbsp;0</span></div></div> <div class='div_puste'></div></div> 						 </div>
+
+						 
+		  <div class="lista_wizyt_kol_tytul_news" style='margin-left: 60px; margin-top: 5px;  padding: 5px 5px; border: 2px solid #EFEFF8;'>
+
+			   
+								   <h2>
+										<a target="_blank" href="http://www.linuxportal.pl/newsbar/nie-tylko-raspberry-pi-czyli-o-klonach-slow-kilka-id186381">Nie tylko Raspberry Pi, czyli o klonach słów kilka</a>
+										<span style="display: inline; font-size: 16px; padding: 0; margin: 0;">&#8663;</span>
+								   </h2>
+
+								   
+			   <div class="wpiskrotki" style='padding-top: 2px;'>
+			   
+					
+							  <a class="linkopis" style='padding-top: 14px;' href="/news/nie-tylko-raspberry-pi-czyli-o-klonach-slow-kilka-id186381"><span>W dzisiejszym artykule postanowiłem przedstawić najpopularniejsze klony mikrokomputera Raspberry Pi m.in na tle ich ceny oraz supportu społeczności.
+
+Raspberry Pi debiutował z 256MB pamięci, procesorem 700MHz, jednym portem USB oraz Ethernetem ...</span></a>
+
+							  			   </div>
+
+			   						 
+			   <div class="div_puste"></div>
+			   
+			   <span><span class='div_puste'></span></span>		  </div><!-- lista_wizyt_kol_tytul  -->
+
+		  					</div>
+					
+					<div style='margin-left: 61px; padding-top: 6px; '>
+
+						 
+						 <div class='div_puste'></div>
+						 
+					</div>
+					
+		  <div class="div_puste"></div>
+
+		  
+       </div><!-- lista_wizyt -->
+       <br /><br />
+			   <div class="div_puste"></div>
+
+			   				    </div>
+			   </div>
+
+			   
+		  <div id="czesc_prawa">
+
+			   	 <div class="modulr">
+
+		  		  
+		  
+		  <div id="menu_rozwijane_wizyt" class="menu_roz">
+
+			   <span class="pagenav"><u>▼</u></span>
+			   
+			   <div class="lista_r">
+					<ul>
+						 							  <li><a class="czer" rel="nofollow" title="Zwiń opis" href="/ustawienia?wl=1">&#160;Zwiń opis</a></li>
+							  					</ul>
+			   </div>
+
+		  </div>
+
+		  					<h3>Wiadomości</h3>
+					
+					<p class="ostatni_wiersz">
+						 Wiadomości: newsy, artykuły oraz wpisy z blogów dotyczące systemów Linux, Open Source oraz Androida.					</p>
+
+					
+					<p>
+						 Wiadomości / warto przeczytać - oceniono wymaganą liczą głosów na TAK.<br />Wiadomości / oczekujące - oczekują na wymaganą liczbę głosów na TAK.					</p>
+
+					
+		  <p class="ostatni_wiersz"  style="padding-top: 10px;">
+			   <b>OBSERWUJ serwis: Wiadomości / warto przeczytać</b>		  </p>
+
+		  <ul style="list-style-type: none; margin: 0 0 0 3px; padding: 0;">
+
+			   <li style="margin: 5px 0 10px;" class="narz"><a class="nied2 zao4" href="https://www.linuxportal.pl/logowanie.html" title="Zaloguj się, aby włączyć OBSERWACJĘ '.serwisu Wiadomości">WŁĄCZ OBSERWACJE</a></li>
+
+			   		  </ul>
+
+		  					
+			   <p class="ostatni_wiersz" style="padding-top: 10px;">
+					<b>Kanał RSS</b>
+			   </p>
+			   
+			   
+					<!-- <p style="width:276px;"> -->
+
+					<p class="ostatni_wiersz">
+						 <!-- <span style="display:block; padding-bottom:3px;">Obserwuj nas poprzez kanał RSS:</span> -->
+						 Obserwuj Wiadomości poprzez kanał RSS:<br />
+
+						 <!-- <a style="float:left; padding-right:10px;" href="http://feeds.linuxrss.pl/Linuxrsspl" rel="alternate" type="application/rss+xml" title="Subskrybuj kanał"><img src="/images/wspolny/feed-icon32x32.png" width="32" height="32" alt="kanały RSS" style="vertical-align:middle; border:0;" /></a> -->
+						 
+						 						 Wiadomości / warto przeczytać: <a class="rss" href="http://feeds.linuxportal.pl/LinuxPortalpl-news" target="_blank" title="pobierz kanał RSS z wiadomościami / warto przeczytać"><img src="/images/stories/rss.png" border="0" width="36" height="14" alt="kanał RSS" /></a><br />
+						 Wiadomości / oczekujące: <a class="rss" href="http://feeds.linuxportal.pl/LinuxPortalpl-news-oczekujace" target="_blank" title="pobierz kanał RSS z wiadomościami / oczekujące"><img src="/images/stories/rss.png" border="0" width="36" height="14" alt="kanał RSS" /></a><br />
+						 Wiadomości / wszystkie: <a class="rss" href="http://feeds.linuxportal.pl/LinuxPortalpl-news-wszystkie" target="_blank" title="pobierz kanał RSS z wiadomościami / wszystkie"><img src="/images/stories/rss.png" border="0" width="36" height="14" alt="kanał RSS" /></a>
+
+					</p>
+
+										<p class="ostatni_wiersz">
+						 
+						 lub
+						 <!-- <b>Utwórz własny kanał RSS:</b><br />-->
+						 <!-- Jeśli chcesz aby w ramach jednego kanału RSS znalazły się tylko wiadomości z wybranych przez Ciebie serwisów monitorowanych na LinuxPortal.pl to możesz utworzyć u nas swój indywidualny kanał RSS. Wystarczy się zalogować i w swojej Wizytówce wybrać na liście odpowiednie serwisy. <br /> -->
+
+						 							  <a style="font-size: 12px;" href="https://www.linuxportal.pl/logowanie.html" title="utwórz własny kanał RSS">utwórz własny kanał RSS</a>
+							  
+							  					</p>
+						 </div>
+	 
+	 <div class="modulr" style="text-align: right; background-color:#ffffff;">
+
+		  
+		  <h3>Reklama</h3>
+
+		  
+	 <a class="a_reklama" href="https://www.linuxportal.pl/reklama" >
+
+		  <p class="ostatni_wiersz tytul">
+			   Twoja reklama<br />w tym miejscu
+		  </p>
+
+		  <p class="ostatni_wiersz tresc">
+			   Reklama w formie graficznej.<br />
+			   Rozmiar pliku max 300px na 300px.<br />
+			   Format pliku: jpg, png, gif.
+		  </p>
+
+		  
+		  <p class="ostatni_wiersz stopka">
+			   Więcej informacji: <u>Zaproponuj cenę</u>.
+		  </p>
+	 </a>
+
+	 
+	 </div>
+	 
+	 <div id="modul_lista" class="modulr">
+
+		  <p class='p_nagl0'><a class='nagl1' href='/news/top24godz' title='Zobacz wszystkie: Wiadomości'>Wiadomości</a><span class='nagl1'>/ TOP 24godz.</span><span class="div_puste"></span></p>
+		  <div class="w pierwszy_wiersz">
+
+			   
+					<a class="tytul" href="/news/raspberry-pi-z-nowym-pulpitem-pixel-malina-nabrala-kolorow-jest-przyjemniejsza-w-uzyciu-id186352">Raspberry Pi z nowym pulpitem PIXEL. Malina nabrała kolorów, jest przyjemniejsza w użyciu</a>
+
+					DobreProgramy.pl<span class="div_puste"></span><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>10</span> osób twierdzi: warto przeczytać</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w">
+
+			   
+					<a class="tytul" href="/news/lista-obecnosci-na-steam-linux-0-94-id186392">Lista obecności na Steam: Linux 0.94%</a>
+
+					Przystajnik<span class="div_puste"></span><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>2</span> osoby twierdzą:: warto przeczytać</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w">
+
+			   
+					<a class="tytul" href="/news/warhammer-40-000-dawn-of-war-ii-z-dodatkami-wydane-na-linuksa-id186369">Warhammer 40,000: Dawn of War II z dodatkami wydane na Linuksa</a>
+
+					OSWorld.pl<span class="div_puste"></span><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>3</span> osoby twierdzą:: warto przeczytać</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w">
+
+			   
+					<a class="tytul" href="/news/pazdziernikowe-wydanie-linux-magazine-raspberry-pi-i-arch-linux-id186364">Październikowe wydanie Linux Magazine: Raspberry Pi i Arch Linux</a>
+
+					Linux Magazine i Android User<span class="div_puste"></span><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>4</span> osoby twierdzą:: warto przeczytać</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w ostatni_wiersz">
+
+			   
+					<a class="tytul" href="/news/firefox-z-googleowymi-wtyczkami-pdf-i-flash-oto-ciag-dalszy-chromifikacji-id186384">Firefox z google&#039;owymi wtyczkami PDF i Flash – oto ciąg dalszy chromifikacji</a>
+
+					DobreProgramy.pl<span class="div_puste"></span><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>3</span> osoby twierdzą:: warto przeczytać</div> <span class="div_puste"></span>		  </div>
+
+		  
+						 <a class="wiecej" href="/news/top24godz" title="zobacz więcej: Wiadomości">Wiadomości</a> <span class="wiecej">więcej: </span>
+						 
+		  <div class="div_puste"></div>
+
+	 </div>
+
+	 
+	 <div id="modul_lista" class="modulr">
+
+		  <p class='p_nagl0'><a class='nagl1' href='/oferty-pracy' title='Zobacz wszystkie: Oferty pracy'>Oferty pracy</a><span class='nagl1'>/ najnowsze</span><span class="div_puste"></span></p>
+		   <p class="ostatni_wiersz">
+
+			   <a class='tytul' style='display: block;' href='/oferty-pracy/administrator-it-id184265' title='Administrator IT' >Administrator IT</a>
+<span>mazowieckie, administratorzy</span>
+pronet.pl sp. z o.o.		   </p>
+
+		  
+		  <div class="div_puste"></div>
+
+	 </div>
+
+	 
+	 <div id="modul_lista" class="modulr burze">
+
+		  <p class='p_nagl0'><a class='nagl1' href='/propozycje' title='Zobacz wszystkie: Propozycje artykułów'>Propozycje artykułów</a><span class="div_puste"></span></p>
+		  <div class="w pierwszy_wiersz">
+
+			   Chciałbym przeczytać artykuł na temat 
+					<a class="tytul" href="/propozycje/jak-wy-widzicie-dystrybucje-dla-poczatkujacych-aktualnie-a-jak-byscie-chcieli-by-wygladala-id184631">Jak wy widzicie "dystrybucje dla początkujących" aktualnie , a jak byście chcieli by wyglądała </a>
+
+					<a class='css_wyr burza_modul zao4' href='/propozycje/donapisania'>do napisania</a><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>4</span> osoby popierają</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w">
+
+			   Chciałbym przeczytać artykuł na temat 
+					<a class="tytul" href="/propozycje/rozwijanie-icewm-problemy-z-dolphin-zarzadzanie-ikonami-w-dolphin-pod-icewm-id184408">Rozwijanie Icewm, problemy z dolphin, zarządzanie ikonami w dolphin pod icewm.</a>
+
+					<a class='css_wyr burza_modul zao4' href='/propozycje/donapisania'>do napisania</a><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>2</span> osoby popierają</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w ostatni_wiersz">
+
+			   Chciałbym przeczytać artykuł na temat 
+					<a class="tytul" href="/propozycje/tzw-dzialan-w-ramach-pulpitu-kde-id183975">tzw "Działań" w ramach pulpitu KDE</a>
+
+					<a class='css_wyr burza_modul zao4' href='/propozycje/donapisania'>do napisania</a><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>4</span> osoby popierają</div> <span class="div_puste"></span>		  </div>
+
+		  
+						 <a class="wiecej" href="/propozycje" title="zobacz więcej: Propozycje artykułów">Propozycje artykułów</a> <span class="wiecej">więcej: </span>
+						 
+		  <div class="div_puste"></div>
+
+	 </div>
+
+	 
+	 <div id="modul_lista" class="modulr burze">
+
+		  <p class='p_nagl0'><a class='nagl1' href='/burze-mozgow' title='Zobacz wszystkie: Rozwijaj z nami LinuxPortal.pl'>Rozwijaj z nami LinuxPortal.pl</a><span class="div_puste"></span></p>
+		  <div class="w pierwszy_wiersz">
+
+			   
+					<a class="tytul" href="/burze-mozgow/proste-poradniki-id184675">Proste poradniki</a>
+
+					<a class='css_wyr burza_modul zao4' href='/burze-mozgow/sprawdzane'>sprawdzane</a><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>5</span> osób popiera</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w">
+
+			   
+					<a class="tytul" href="/burze-mozgow/nowy-serwis-propozycje-artykulow-w-ramach-linuxportal-pl-id183859">Nowy Serwis Propozycje artykułów w ramach LinuxPortal.pl</a>
+
+					<a class='css_wyr burza_modul zao4' href='/burze-mozgow/sprawdzane'>sprawdzane</a><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>8</span> osób popiera</div> <span class="div_puste"></span>		  </div>
+
+		  
+		  <div class="w ostatni_wiersz">
+
+			   
+					<a class="tytul" href="/burze-mozgow/modul-twoja-sugestia-do-lepszego-kontaktu-id183763">Moduł "Twoja sugestia" do lepszego kontaktu</a>
+
+					<a class='css_wyr burza_modul zao4' href='/burze-mozgow/realizacja'>w trakcie realizacji</a><div class='modul_glosowania zao4 mini'><span style='' class='ilosc_glosow tak'>8</span> osób popiera</div> <span class="div_puste"></span>		  </div>
+
+		  
+						 <a class="wiecej" href="/burze-mozgow" title="zobacz więcej: Rozwijaj z nami LinuxPortal.pl">Rozwijaj z nami LinuxPortal.pl</a> <span class="wiecej">więcej: </span>
+						 
+		  <div class="div_puste"></div>
+
+	 </div>
+
+	 
+	 <div id="modul_lista" class="modulr">
+
+		  <p class='p_nagl0'>Nowi Użytkownicy<span class="div_puste"></span></p>
+		  <p class="pierwszy_wiersz">
+
+			   <em class='lewa'>
+					<img src="/images/avatar_jasny.png" width="32" alt="logo: PingusTux" title="logo: PingusTux" />
+			   </em>
+
+			   <em class='prawa'>
+					
+					<a class="tytul" href="/osoby/id186397-pingustux">PingusTux</a>
+
+			   </em>
+
+			   <span class="div_puste"></span>
+		  </p>
+
+		  
+		  <p>
+
+			   <em class='lewa'>
+					<img src="/images/avatar_jasny.png" width="32" alt="logo: ArturNowak" title="logo: ArturNowak" />
+			   </em>
+
+			   <em class='prawa'>
+					
+					<a class="tytul" href="/osoby/id186396-arturnowak">ArturNowak</a>
+
+			   </em>
+
+			   <span class="div_puste"></span>
+		  </p>
+
+		  
+		  <p>
+
+			   <em class='lewa'>
+					<img src="/images/avatar_jasny.png" width="32" alt="logo: Janusz Leśniak" title="logo: Janusz Leśniak" />
+			   </em>
+
+			   <em class='prawa'>
+					
+					<a class="tytul" href="/osoby/id186395-janusz-lesniak">Janusz Leśniak</a>
+
+			   </em>
+
+			   <span class="div_puste"></span>
+		  </p>
+
+		  
+		  <p>
+
+			   <em class='lewa'>
+					<img src="/images/avatar_jasny.png" width="32" alt="logo: Mariusz Choc" title="logo: Mariusz Choc" />
+			   </em>
+
+			   <em class='prawa'>
+					
+					<a class="tytul" href="/osoby/id186394-mariusz-choc">Mariusz Choc</a>
+
+			   </em>
+
+			   <span class="div_puste"></span>
+		  </p>
+
+		  
+		  <p class="ostatni_wiersz">
+
+			   <em class='lewa'>
+					<img src="/images/avatar_jasny.png" width="32" alt="logo: PawePietrzycki" title="logo: PawePietrzycki" />
+			   </em>
+
+			   <em class='prawa'>
+					
+					<a class="tytul" href="/osoby/id186391-pawepietrzycki">PawePietrzycki</a>
+
+			   </em>
+
+			   <span class="div_puste"></span>
+		  </p>
+
+		  
+		  <div class="div_puste"></div>
+
+	 </div>
+
+	 								   <div id="modul_fb" class="modulr">
+											 <b>Facebook</b>
+						 
+					<fb:like-box href="https://www.facebook.com/LinuxPortal"  show_faces="true" stream="false" header="false"></fb:like-box>
+
+								   </div>
+			   			   <div id="modul_gp" class="modulr">
+											 <b>Google+</b>
+						 
+					<g:plus href="https://plus.google.com/104106246037681018682" rel="publisher" size="smallbadge" width=""></g:plus>
+
+								   </div>
+			   
+			   <div class="div_puste"></div>
+		  </div> <!-- czesc_prawa -->
+		  
+			   <div class="div_puste"></div>
+		  </div> <!-- czesc_glowna1 -->
+
+		  <div class="div_puste"></div>
+	 </div> <!-- czesc_glowna -->
+
+	 		  </div><!-- calosc -->		  <!--</div>--> <!-- glowne_dane_p_m -->		  	 </div><!-- glowne_dane -->	 <div id="stopka">	 	 <div id="stopkaa2" class="lista_ogolna">		  		   
+				<div id="menu_globalne_dol" class="menu_poz_i_roz">
+
+					 <div class="lista_p_i_r">
+						 <ul>
+							  
+							  							  
+								   <li><a href="/">LinuxPortal.pl</a></li>
+								   
+								   
+							  <li class="brak_dost"><a href="/aktualnosci">Aktualności</a></li>
+
+							  <li class="wlaczn"><a href="/news">Wiadomości</a></li>
+
+							  <li><a href="/wpisy">Wpisy i Blogi</a></li>
+
+							   <li><a href="/linux-programy">Linux i Programy</a></li>
+
+							   <li><a href="/oferty">Oferty firm</a></li>
+
+							   <li><a href="/osoby">Społeczność</a></li>
+
+							   
+							   <li class="brak_dost"><a href="/burze-mozgow">Rozwijaj LinuxPortal.pl</a></li>
+
+							  
+						 </ul>
+					 </div>
+			   </div>
+
+			   <!-- <div class="div_puste"></div> -->
+			   		  <div id="menu_w_stopce">			   <ul>											 						 <li><a href="/kanalyrss" title="Kanały RSS">Kanały RSS</a></li>						 <li class="kreseczka">|</li>						 <li><a href="/linuxarchiwum" title="Archiwum wpisów z LinuxDlaFirm.pl oraz LinuxPraca.pl">Archiwum wpisów</a></li>						 						 <li class="kreseczka">|</li>						 <li><a href="/blogi/blog-firmowy-linuxportal-pl" title="Blog LinuxPortal.pl">Blog LinuxPortal.pl</a></li>						 						 <li class="kreseczka">|</li>						 <li><a href="/patronat" title="Patronat medialny">Patronat medialny</a></li>						 <li class="kreseczka">|</li>						 <li><a href="/reklama" title="Reklama na LinuxPortal.pl">Reklama</a></li>						 						 						 					<li class="kreseczka">|</li>					<li><a href="/regulaminy/polityka-plikow-cookies" title="Polityka plików cookies">Polityka plików "cookies"</a></li>					<li class="kreseczka">|</li>					<li><a href="/regulaminy/regulamin" title="Regulamin LinuxPortal.pl">Regulamin</a></li>					<li class="kreseczka">|</li>					<li><a href="/regulaminy/polityka-prywatnosci" title="Polityka prywatności">Polityka prywatności</a></li>					<li class="kreseczka">|</li>					<li><a href="/wplaty" title="Wpłać dowolną kwotę na rozwój LinuxPortal.pl">Wspomóż LinuxPortal.pl</a></li>					<li class="kreseczka">|</li>					<li><a href="https://www.linuxportal.pl/transakcjakp" title="Informacja na temat Konta Premium">Konto Premium</a></li>					<li class="kreseczka">|</li>					<li><a href="/kontakt-do-redakcji/" title="Kontakt do Redakcji">Kontakt do Redakcji</a></li>																					 <li class="kreseczka">|</li>						 <li><a href="http://ksiegowytarnow.pl" title="Księgowość">Księgowość</a></li>						 						 			   </ul>			   <p>										Copyright 2015 by LinuxPortal.pl			   </p>			   					<p>						 <a href="https://www.linuxportal.pl/wplaty" class="przycisk white2 szeroki zao7" style="display: inline-flex;">Wspomóż<br />LinuxPortal.pl</a>						 						 					</p>							  </div><!-- menu_w_stopce -->	 </div> <!-- stopkaa2 -->	 </div> <!-- stopka -->
+			   <div style="width: 100%; background: rgb(44, 48, 51) none repeat scroll 0% 0%; padding: 10px 0; color: #fff; border-top: 1px solid rgb(221, 221, 221);  text-align: center; position: fixed; bottom: 0; z-index: 999999999;">
+					Strona <a style="color: #fff; text-decoration: underline;" href="https://www.linuxportal.pl/regulaminy/polityka-plikow-cookies">korzysta z plików cookies</a> w celu realizacji usług zgodnie z 
+					<a style="color: #fff; text-decoration: underline;" href="https://www.linuxportal.pl/regulaminy/polityka-prywatnosci">Polityką prywatności</a>. 
+					Możesz określić warunki przechowywania lub dostępu do cookies w Twojej przeglądarce.   
+					
+											 <a href="/komunikaty/infociastka/zwin" class="przycisk maly blue2 zao4" style="float: unset; padding-top: 4px; padding-bottom: 4px;">Zamknij »</a>
+						 			   </div>
+
+			   	 <script type="text/javascript">	   window.___gcfg = {lang: 'pl'};	   (function() {		 var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;		 po.src = 'https://apis.google.com/js/plusone.js';		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);	   })();	 </script>	 </body></html>

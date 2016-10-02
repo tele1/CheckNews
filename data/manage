@@ -1,0 +1,51 @@
+#! /bin/sh
+
+
+function Func_remove() {
+	# if variable is empty
+	if [ -z "$LIST" ]
+	then
+		echo "variable is empty"
+	else
+		number1=$(awk '{print $1}' <<< "$LIST")
+		rm -vf data/webs/${number1}.*
+		echo -e "$(cat data/lists | grep -v "$LIST")" > data/lists
+	fi
+}
+export -f Func_remove
+
+
+
+GTKDIALOG=gtkdialog
+
+export manage='
+<window  title="Manager">
+<vbox scrollable="true" width-request="200" width="400" height="250">
+	<text>
+		<label>Links:</label>
+	</text>
+    <list>
+		<variable>LIST</variable>
+		<input file>data/lists</input>
+
+    </list>
+	<hbox>
+
+			<button>
+				<input file stock="gtk-delete"></input>
+				<label>Removeselected</label>
+				<action>Func_remove</action>
+                <action>clear:LIST</action>
+                <action>refresh:LIST</action>
+			</button>
+		<button ok>
+				<variable>managewindow</variable>
+				<action type="closewindow">"managewindow"</action>
+		</button>
+
+	</hbox>
+</vbox>
+</window>
+'
+gtkdialog -c  --program manage
+

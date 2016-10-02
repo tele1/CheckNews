@@ -1,0 +1,18 @@
+#! /bin/bash
+echo "-----------------------------"
+yad  --title="Test_window" --notification  --listen \
+--menu="Check News!data/check_news
+Add new!data/add_link
+Manage!data/manage
+Refresh database!data/refresh_data
+Exit !data/kill_yd "Test_window"" \
+--separator="\\n" \
+ --command='echo Where are the river without water? -On the maps.' --image=data/icons/cool-smilies.png  --button="gtk-close:1"
+echo "-----------------------------"
+
+
+## other options
+#CD open!eject
+#CD close!eject -t
+#Gedit !gedit
+#VLC Player !vlc

@@ -1,0 +1,44 @@
+#! /bin/bash
+
+
+
+CountLines=$(cat data/lists | wc -l)
+
+		# loop from 1 to all CountLines
+		for i in `seq 1 $CountLines`
+		do
+			# i=line number
+
+			# first word(number) from line
+			number=$(awk 'NR=='$i data/lists | awk '{ printf $1}' )
+
+			# second word(link) from line 
+			link=$(awk 'NR=='$i data/lists | awk '{ printf $2}' )
+
+			OLD_MARKER="data/webs/${number}.*"
+			curl -s $link > data/tmp/new.marker
+			OLD_MARKER="data/tmp/new.marker"
+
+
+			MARKER_LINE=$(ls data/webs/2.* | cut -d'.' -f2)
+			if [[ "$MARKER_LINE" == "0" ]]; then
+
+				# if files are different
+				if ! diff "$OLD_MARKER" "$NEW_MARKER" >/dev/null; then
+				#if cmp -s "$OLD_MARKER" "$OLD_MARKER" ; then
+					xdg-open $link
+
+				else
+					echo "Nothing changed"
+					notify-send "No change $link"
+				fi
+
+			else
+					notify-send "THis is not ready."
+			fi
+
+		done
+
+
+
+
