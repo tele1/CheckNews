@@ -1,14 +1,6 @@
 #! /bin/sh
 
 
-
-
-
-
-
-
-
-
 function Func_filter() {
 # count
 number1=$[$(cat data/lists | wc -l)+1]

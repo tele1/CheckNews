@@ -65,7 +65,7 @@
 	lang.remember_me = "Ricordami";
 // -->
 </script>
-<span style="float: left;"><strong>Orario:</strong> 03-10-2016, 00:11 </span>
+<span style="float: left;"><strong>Orario:</strong> 03-10-2016, 00:26 </span>
 		<span id="quick_login">Benvenuto ospite! (<a href="http://www.liberainformatica.it/forum/member.php?action=login" onclick="MyBB.quickLogin(); return false;">Log in</a> &mdash; <a href="http://www.liberainformatica.it/forum/member.php?action=register">Registrati</a>)</span>
 <!-- end: header_welcomeblock_guest -->
 			</div>
@@ -94,7 +94,7 @@
 <!-- end: header -->
 
 <!-- start: forumdisplay_usersbrowsing -->
-<span class="smalltext">Utenti che stanno visitando questo forum: <a href="http://www.liberainformatica.it/forum/member.php?action=profile&amp;uid=75">adrianomorselli</a>, 1 Visitatore(i)</span><br />
+<span class="smalltext">Utenti che stanno visitando questo forum: 1 Visitatore(i)</span><br />
 <!-- end: forumdisplay_usersbrowsing -->
 
 <!-- start: forumdisplay_subforums -->
@@ -198,7 +198,7 @@ Thread" /></a><div class="smalltext">To report the results of tests on compiled 
 					 This is free software, support us and we'll support you. -->
 Powered by <a href="http://mybb.com/" target="_blank">MyBB</a>, &copy; 2002-2016 <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
 <br class="clear" />
-<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- End task image code -->
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><img src="http://www.liberainformatica.it/forum/task.php" border="0" width="1" height="1" alt="" /><!-- End task image code -->
 
 		</div>
 		</div>

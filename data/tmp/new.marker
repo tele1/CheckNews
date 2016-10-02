@@ -1,283 +1,208 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<LINK REL="SHORTCUT ICON" HREF="http://www.liberainformatica.it/forum/images/logo-ico.png"><!-- start: forumdisplay -->
+<html xml:lang="it" lang="it" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-        <title>The Linux Kernel Archives</title>
-        <meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="./theme/images/logos/favicon.png" />
-        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
-                <link href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Linux Kernel Archives Atom Feed" />
-                
-        <link href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate" title="Latest Linux Kernel Releases" />
+<title>Forums di liberainformatica.it - uplos32 [English] </title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Ultime discussioni (RSS 2.0)" href="http://www.liberainformatica.it/forum/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="Ultime discussioni (Atom 1.0)" href="http://www.liberainformatica.it/forum/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="http://www.liberainformatica.it/forum/jscripts/prototype.js?ver=1603"></script>
+<script type="text/javascript" src="http://www.liberainformatica.it/forum/jscripts/general.js?ver=1603"></script>
+<script type="text/javascript" src="http://www.liberainformatica.it/forum/jscripts/popup_menu.js?ver=1600"></script>
+<link type="text/css" rel="stylesheet" href="http://www.liberainformatica.it/forum/css.php?stylesheet=13" />
+<link type="text/css" rel="stylesheet" href="http://www.liberainformatica.it/forum/css.php?stylesheet=10" />
 
-        <!--[if IE]>
-                <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript">
+<!--
+	var cookieDomain = ".liberainformatica.it";
+	var cookiePath = "/forum/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "Sei sicuro di voler cancellare questo evento?";
+	var removeattach_confirm = "Sei sicuro di voler rimuovere da questo messaggio l'allegato selezionato?";
+	var loading_text = 'Caricamento... <br />Attendere...';
+	var saving_changes = 'Salvataggio delle modifiche in corso...';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "df9ec831d92c2e806910ea3a364fbadd";
+	var imagepath = "images/sleek";
+// -->
+</script>
 
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
-                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+<!-- end: headerinclude -->
 
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
-
+<script type="text/javascript">
+<!--
+	lang.no_new_posts = "Il forum non contiene nuovi messaggi";
+	lang.click_mark_read = "Clicca per segnare questo forum come letto";
+// -->
+</script>
 </head>
+<body>
+<!-- start: header -->
+<div id="container">
+		<a name="top" id="top"></a>
+		<div id="header">
+			<div class="logo"><a href="http://www.liberainformatica.it/forum/index.php"><img src="http://www.liberainformatica.it/forum/images/logo.png" alt="Forums di liberainformatica.it" title="Forums di liberainformatica.it" /></a></div>
+			<div class="menu">
+				<ul>
+					<li><a href="http://www.liberainformatica.it/forum/search.php"><img src="images/sleek/toplinks/search.gif" alt="Ricerca" title="Ricerca" />Cerca</a></li>
+					<li><a href="http://www.liberainformatica.it/forum/memberlist.php"><img src="images/sleek/toplinks/memberlist.gif" alt="Lista utenti" title="Lista utenti" />Lista utenti</a></li>
+					<li><a href="http://www.liberainformatica.it/forum/calendar.php"><img src="images/sleek/toplinks/calendar.gif" alt="Calendario" title="Calendario" />Calendario</a></li>
+					<li><a href="http://www.liberainformatica.it/forum/misc.php?action=help"><img src="images/sleek/toplinks/help.gif" alt="Aiuto" title="Aiuto" />Aiuto</a></li>
+				</ul>
+			</div>
+			<hr class="hidden" />
+			<div id="panel">
+				<!-- start: header_welcomeblock_guest -->
+<script type="text/javascript">
+<!--
+	lang.username = "Nome utente";
+	lang.password = "Password";
+	lang.login = "Login";
+	lang.lost_password = " &mdash; <a href=\"http://www.liberainformatica.it/forum/member.php?action=lostpw\">Password dimenticata?<\/a>";
+	lang.register_url = " &mdash; <a href=\"http://www.liberainformatica.it/forum/member.php?action=register\">Registrati<\/a>";
+	lang.remember_me = "Ricordami";
+// -->
+</script>
+<span style="float: left;"><strong>Orario:</strong> 03-10-2016, 01:17 </span>
+		<span id="quick_login">Benvenuto ospite! (<a href="http://www.liberainformatica.it/forum/member.php?action=login" onclick="MyBB.quickLogin(); return false;">Log in</a> &mdash; <a href="http://www.liberainformatica.it/forum/member.php?action=register">Registrati</a>)</span>
+<!-- end: header_welcomeblock_guest -->
+			</div>
+		</div>
+		<hr class="hidden" />
+		<br class="clear" />
+		<div id="content">
+			
+			
+			
+			
+			
+			<!-- start: nav -->
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-	        <div id="tux-gear"></div>
-                <h1><a href="./">The Linux Kernel Archives </a></h1>
-                <nav><ul>
-                                                                                                    <li ><a href="./category/about.html">About</a></li>
-                                    <li ><a href="./category/contact-us.html">Contact us</a></li>
-                                    <li ><a href="./category/faq.html">FAQ</a></li>
-                                    <li ><a href="./category/releases.html">Releases</a></li>
-                                    <li ><a href="./category/signatures.html">Signatures</a></li>
-                                    <li ><a href="./category/site-news.html">Site news</a></li>
-                                </ul></nav>
-        </header><!-- /#banner -->
-                
-    <aside id="featured" class="body">
-    <article>
-        <table id="protocols">
-        <tr>
-          <th>Protocol</th>
-          <th>Location</th>
-        </tr>
-        <tr>
-          <td><a href="https://www.ietf.org/rfc/rfc2616.txt">HTTP</a></td>
-          <td><a href="https://www.kernel.org/pub/">https://www.kernel.org/pub/</a></td>
-        </tr>
+<div class="navigation">
+<!-- start: nav_bit -->
+<a href="http://www.liberainformatica.it/forum/index.php">Forums di liberainformatica.it</a>
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+|
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active">uplos32 [English]</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav -->
+			<br />
+<!-- end: header -->
 
-        <tr>
-          <td><a href="https://git-scm.com/">GIT</a></td>
-          <td><a href="https://git.kernel.org/">https://git.kernel.org/</a></td>
-        </tr>
+<!-- start: forumdisplay_usersbrowsing -->
+<span class="smalltext">Utenti che stanno visitando questo forum: 1 Visitatore(i)</span><br />
+<!-- end: forumdisplay_usersbrowsing -->
 
-        <tr>
-            <td><a href="https://rsync.samba.org/">RSYNC</a></td>
-            <td>rsync://rsync.kernel.org/pub/</td>
-        </tr>
-        </table>
+<!-- start: forumdisplay_subforums -->
+<table border="0" cellspacing="0" cellpadding="6" class="tborder">
+<tr>
+<td class="thead" colspan="5" align="center"><strong>Forum in 'uplos32 [English]'</strong></td>
+</tr>
+<tr>
+<td class="tcat" width="2%">&nbsp;</td>
+<td class="tcat" width="59%"><span class="smalltext"><strong>Forum</strong></span></td>
+<td class="tcat" width="7%" align="center" style="white-space: nowrap"><span class="smalltext"><strong>Discussioni</strong></span></td>
+<td class="tcat" width="7%" align="center" style="white-space: nowrap"><span class="smalltext"><strong>Messaggi</strong></span></td>
+<td class="tcat" width="15%" align="center"><span class="smalltext"><strong>Ultimo messaggio</strong></span></td>
+</tr>
+<!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="top" width="1"><img src="images/sleek/on.gif" alt="Il forum contiene nuovi messaggi" title="Il forum contiene nuovi messaggi" class="ajax_mark_read" id="mark_read_27" /></td>
+<td class="trow1" valign="top">
+<strong><a href="forumdisplay.php?fid=27">General</a></strong><a class="newthreadbitlink" href="newthread.php?fid=27" title="Post new 
+thread in General"><img src="images/sleek/cnti.png" alt="New 
+Thread" /></a><div class="smalltext">General questions and help about software and repository.</div>
+</td>
+<td class="trow1" valign="top" align="center" style="white-space: nowrap">43</td>
+<td class="trow1" valign="top" align="center" style="white-space: nowrap">333</td>
+<td class="trow1" valign="top" align="center" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<span class="smalltext">
+<a href="showthread.php?tid=450&amp;action=lastpost" title="Guayadeque &amp; Quod Libet"><strong>Guayadeque &amp; Quod Libet</strong></a>
+<br />ieri 21:36 <br />da <a href="http://www.liberainformatica.it/forum/member.php?action=profile&amp;uid=91">Revoluz</a></span>
 
-        <table id="latest">
-        <tr>
-            <td colspan="2" id="latest_label">
-                <strong>Latest Stable Kernel:</strong>
-            </td>
-        </tr>
-        <tr>
-            <td id="latest_button">
-                <a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.7.6.tar.xz"><img src="./theme/images/icons/downloadarrow_small.png" width="48" height="48" border="0" alt="Download"/></a>
-            </td>
-            <td id="latest_link">
-                <a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.7.6.tar.xz">4.7.6</a>
-            </td>
-        </tr>
-        </table>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="top" width="1"><img src="images/sleek/on.gif" alt="Il forum contiene nuovi messaggi" title="Il forum contiene nuovi messaggi" class="ajax_mark_read" id="mark_read_30" /></td>
+<td class="trow2" valign="top">
+<strong><a href="forumdisplay.php?fid=30">Software announcements</a></strong><a class="newthreadbitlink" href="newthread.php?fid=30" title="Post new 
+thread in Software announcements"><img src="images/sleek/cnti.png" alt="New 
+Thread" /></a><div class="smalltext">Progress of the distro </div>
+</td>
+<td class="trow2" valign="top" align="center" style="white-space: nowrap">-</td>
+<td class="trow2" valign="top" align="center" style="white-space: nowrap">-</td>
+<td class="trow2" valign="top" align="center" style="white-space: nowrap"><div style="text-align: center;">-</div></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="top" width="1"><img src="images/sleek/on.gif" alt="Il forum contiene nuovi messaggi" title="Il forum contiene nuovi messaggi" class="ajax_mark_read" id="mark_read_28" /></td>
+<td class="trow1" valign="top">
+<strong><a href="forumdisplay.php?fid=28">Test section</a></strong><a class="newthreadbitlink" href="newthread.php?fid=28" title="Post new 
+thread in Test section"><img src="images/sleek/cnti.png" alt="New 
+Thread" /></a><div class="smalltext">To report the results of tests on compiled packages</div>
+</td>
+<td class="trow1" valign="top" align="center" style="white-space: nowrap">-</td>
+<td class="trow1" valign="top" align="center" style="white-space: nowrap">-</td>
+<td class="trow1" valign="top" align="center" style="white-space: nowrap"><div style="text-align: center;">-</div></td>
+</tr>
+<!-- end: forumbit_depth2_forum -->
+</table>
+<br />
+<!-- end: forumdisplay_subforums -->
 
-        <table id="releases">
-                <tr align="left">
-            <td>mainline:</td>
-            <td><strong>4.8-rc8</strong></td>
-            <td>2016-09-26</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/linux-4.8-rc8.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/linux-4.8-rc8.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/patch-4.8-rc8.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td> </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/diff/?id=v4.8-rc8&id2=v4.8-rc7&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?id=refs/tags/v4.8-rc8" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td> </td>
-        </tr>
-                <tr align="left">
-            <td>stable:</td>
-            <td><strong>4.7.6</strong></td>
-            <td>2016-09-30</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.7.6.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.7.6.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.7.6.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.7.5-6.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v4.7.6&id2=v4.7.5&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v4.7.6" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.7.6" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>4.4.23</strong></td>
-            <td>2016-09-30</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.23.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.23.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.4.23.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.4.22-23.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v4.4.23&id2=v4.4.22&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v4.4.23" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.23" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>4.1.33</strong></td>
-            <td>2016-09-17</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.1.33.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.1.33.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.1.33.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.1.32-33.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v4.1.33&id2=v4.1.32&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v4.1.33" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.1.33" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.18.42</strong></td>
-            <td>2016-09-17</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.18.42.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.18.42.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.18.42.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.18.41-42.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.18.42&id2=v3.18.41&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.18.42" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.18.42" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.16.37</strong></td>
-            <td>2016-08-22</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.16.37.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.16.37.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.16.37.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.16.36-37.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.16.37&id2=v3.16.36&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.16.37" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.16.37" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.14.79 <span class="eolkernel" title="This release is End-of-Life">[EOL]</span></strong></td>
-            <td>2016-09-11</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.14.79.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.14.79.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.14.79.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.14.78-79.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.14.79&id2=v3.14.78&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.14.79" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.14.79" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.12.63</strong></td>
-            <td>2016-09-06</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.12.63.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.12.63.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.12.63.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.12.62-63.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.12.63&id2=v3.12.62&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.12.63" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.12.63" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.10.103</strong></td>
-            <td>2016-08-28</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.10.103.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.10.103.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.10.103.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.10.102-103.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.10.103&id2=v3.10.102&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.10.103" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.10.103" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.4.112</strong></td>
-            <td>2016-04-27</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.4.112.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.4.112.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.4.112.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.4.111-112.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.4.112&id2=v3.4.111&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.4.112" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.4.112" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>longterm:</td>
-            <td><strong>3.2.82</strong></td>
-            <td>2016-08-22</td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.2.82.tar.xz" title="Download complete tarball">tar.xz</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.2.82.tar.sign" title="Download PGP verification signature">pgp</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.2.82.xz" title="Download patch to previous mainline">patch</a>] </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.2.81-82.xz" title="Download incremental patch">inc.&nbsp;patch</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/diff/?id=v3.2.82&id2=v3.2.81&dt=2" title="View diff in cgit">view&nbsp;diff</a>] </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.2.82" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td>[<a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.2.82" title="View detailed change logs">changelog</a>] </td>
-        </tr>
-                <tr align="left">
-            <td>linux-next:</td>
-            <td><strong>next-20160930</strong></td>
-            <td>2016-09-30</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/next/linux-next.git/log/?id=refs/tags/next-20160930" title="Browse the git tree using cgit">browse</a>]  </td>
-            <td> </td>
-        </tr>
-                </table>
-    </article>
-</aside>
-        <section id="extras" class="body">
-                        <div class="blogroll">
-                        <h2>Other resources</h2>
-                        <ul>
-                                                    <li><a href="https://git.kernel.org/">Cgit</a></li>
-                                                    <li><a href="https://www.wiki.kernel.org/">Wikis</a></li>
-                                                    <li><a href="https://bugzilla.kernel.org/">Bugzilla</a></li>
-                                                    <li><a href="https://patchwork.kernel.org/">Patchwork</a></li>
-                                                    <li><a href="http://vger.kernel.org/">Kernel Mailing Lists</a></li>
-                                                    <li><a href="https://mirrors.kernel.org/">Mirrors</a></li>
-                                                    <li><a href="https://www.linux.com/">Linux.com</a></li>
-                                                    <li><a href="http://www.linuxfoundation.org/">Linux Foundation</a></li>
-                                                    <li><a href="http://planet.kernel.org/">Kernel Planet</a></li>
-                                                </ul>
-                </div><!-- /.blogroll -->
-                                <div class="social">
-                        <h2>Social</h2>
-                        <ul>
-                            <li><a href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">Site Atom feed</a></li>
-                                                        <li><a href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate">Releases Atom Feed</a></li>
+<!-- start: footer -->
+<br />
+			<div class="bottommenu">
+				<div class="float_left"><!-- start: footer_languageselect -->
+<form method="get" action="/forum/forumdisplay.php" id="lang_select">
+		<input type="hidden" name="fid" value="25" />
 
-                                                    <li><a href="https://plus.google.com/+Linux/posts">Linux on Google+</a></li>
-                                                </ul>
-                </div><!-- /.social -->
-                </section><!-- /#extras -->
+		<input type="hidden" name="my_post_key" value="df9ec831d92c2e806910ea3a364fbadd" />
+		<select name="language" onchange="MyBB.changeLanguage();">
+			<optgroup label="Selezione rapida della lingua">
+				<option value="english">&nbsp;&nbsp;&nbsp;English (American)</option>
+<option value="italiano" selected="selected">&nbsp;&nbsp;&nbsp;Italiano (Italian)</option>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                    This site is operated by the Linux Kernel Organization, Inc., a <a href="./nonprofit.html">501(c)3 nonprofit corporation</a>, with support from the following sponsors.
-                </address><!-- /#about -->
+			</optgroup>
+		</select>
+		<!-- start: gobutton -->
+<input type="submit" class="button" value="Vai" />
+<!-- end: gobutton -->
+	</form>
+<!-- end: footer_languageselect --></div>
+				<div>	
+<span class="smalltext">
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
+&nbsp;  <a href="mailto:forum@liberainformatica.it"><img src="images/sleek/bottom/contact.png" alt="Scrivici" title="Scrivici" /></a>
+&nbsp;  <a href="/"><img src="images/sleek/bottom/web.png" alt="Home" title="Home" /></a>
+&nbsp;    <a href="#top"><img src="images/sleek/bottom/top.png" alt="Top" title="Top" /></a>
+&nbsp;    <a href="http://www.liberainformatica.it/forum/archive/index.php?forum-25.html"><img src="images/sleek/bottom/archive.png" alt="Visualizza contenuti" title="Visualizza contenuti" /></a>
+&nbsp;    <a href="http://www.liberainformatica.it/forum/misc.php?action=syndication"><img src="images/sleek/bottom/rss.png" alt="Feed" title="Feed" /></a>
+</span>
+				</div>
+			</div>
+			</div>
+		<hr class="hidden" />
+			<center><div id="copyright">
+				<div id="debug"></div>
+				<!-- MyBB is free software developed and maintained by a volunteer community. 
+					 It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact, 
+					 to show your support for MyBB.  If you choose to remove or modify the copyright below, 
+					 you may be refused support on the MyBB Community Forums.
+					 
+					 This is free software, support us and we'll support you. -->
+Powered by <a href="http://mybb.com/" target="_blank">MyBB</a>, &copy; 2002-2016 <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
+<br class="clear" />
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><img src="http://www.liberainformatica.it/forum/task.php" border="0" width="1" height="1" alt="" /><!-- End task image code -->
 
-                <address id="donors">
-                    <a href="http://www.linuxfoundation.org/"><img src="./theme/images/logos/lflogo-med.png"
-                  alt="The Linux Foundation" width="135" height="33" /></a>
-                  &nbsp;
-                  <a href="https://www.redhat.com/"><img src="./theme/images/logos/redhat-logo.png"
-                  alt="Red Hat" height="36" width="108" /></a>
-                  &nbsp;
-                  <a href="https://www.fastly.com/"><img src="./theme/images/logos/fastly-logo.png"
-                  alt="Fastly" width="91" height="35" /></a>
-                  &nbsp;
-                  <a href="https://www.google.com/"><img src="./theme/images/logos/google.png"
-                  alt="Google" height="42" width="128" /></a>
-                  <!--a href="http://www.hp.com/"><img src="./theme/images/logos/hplogo.png"
-                  alt="HP" width="56" height="56" /></a-->
-                  <br/>
-                  <a href="https://www.isc.org/"><img src="./theme/images/logos/hostedatisc.png"
-                  width="84" height="41" alt="Internet Systems Consortium" /></a>
-                  &nbsp;
-                  <a href="https://vexxhost.com/"><img src="./theme/images/logos/vexxhost.png"
-                  width="167" height="36" alt="vexxhost.com" /></a>
-                  &nbsp;
-                  <a href="http://www.osuosl.org/"><img src="./theme/images/logos/osl.png"
-                  width="88" height="31" alt="Open Source Lab" /></a>
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
-
+		</div>
+		</div>
+<!-- end: footer -->
 </body>
 </html>
+<!-- end: forumdisplay -->

@@ -1,4 +1,17 @@
 #! /bin/bash
+
+# Check Dependecies
+[[ -z $(which yad) ]] && echo "FUUUUUUUUU  yad"
+[[ $(echo $SHELL) == "/bin/bash" ]] || echo "FUUUUUUU  bash"
+[[ -z $(which notify-send) ]] && echo "FUUUUUUUUU  notify-send"
+[[ -z $(which gtkdialog) ]] && echo "FUUUUUUUUU  gtkdialog"
+[[ -z $(which curl) ]] && echo "FUUUUUUUUU  curl"
+[[ -z $(which xdg-open) ]] && echo "FUUUUUUUUU  xdg-open"
+[[ -z $(which awk) ]] && echo "FUUUUUUUUU  awk"
+
+
+
+# Menu in tray icon
 echo "-----------------------------"
 yad  --title="Test_window" --notification  --listen \
 --menu="Check News!data/check_news
@@ -14,5 +27,3 @@ echo "-----------------------------"
 #CD close!eject -t
 #Gedit !gedit
 #VLC Player !vlc
-# Refresh database!data/refresh_data
-# Add new!data/add_link
