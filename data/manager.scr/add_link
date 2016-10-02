@@ -5,14 +5,14 @@
 
 function Func_add() {
 # count
-number1=$[$(tail -n 1 data/lists | awk '{printf $1}')+1]
+number1=$[$(tail -n 1 data/manager.scr/lists | awk '{printf $1}')+1]
 
 # if file is empty
 if  cat data/lists | grep -q ^$ ; then
-	echo "1 $ENTRY" > data/lists
+	echo "1 $ENTRY" > data/manager.scr/lists
 	curl -s  "$ENTRY" > data/webs/${number1}.0.marker
 else
-	echo "$number1 $ENTRY" >> data/lists
+	echo "$number1 $ENTRY" >> data/manager.scr/lists
 	curl -s  "$ENTRY" > data/webs/${number1}.0.marker
 fi
 

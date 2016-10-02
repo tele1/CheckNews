@@ -10,7 +10,7 @@ function Func_remove() {
 	else
 		number1=$(awk '{print $1}' <<< "$LIST")
 		rm -vf data/webs/${number1}.*
-		echo -e "$(cat data/manager.src/lists | grep -v "$LIST")" > data/manager.src/lists
+		echo -e "$(cat data/manager.scr/lists | grep -v "$LIST")" > data/manager.scr/lists
 	fi
 }
 export -f Func_remove

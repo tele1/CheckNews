@@ -20,7 +20,7 @@ CountLines=$(cat data/manager.scr/lists | wc -l)
 			OLD_MARKER="data/tmp/new.marker"
 
 
-			MARKER_LINE=$(ls data/webs/2.* | cut -d'.' -f2)
+			MARKER_LINE=$(ls data/webs/${number}.* | cut -d'.' -f2)
 			if [[ "$MARKER_LINE" == "0" ]]; then
 
 				# if files are different
@@ -34,7 +34,7 @@ CountLines=$(cat data/manager.scr/lists | wc -l)
 				fi
 
 			else
-					notify-send "THis is not ready."
+					notify-send "This is not ready."
 			fi
 
 		done
