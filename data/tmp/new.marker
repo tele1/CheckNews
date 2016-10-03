@@ -65,7 +65,7 @@
 	lang.remember_me = "Ricordami";
 // -->
 </script>
-<span style="float: left;"><strong>Orario:</strong> 03-10-2016, 01:17 </span>
+<span style="float: left;"><strong>Orario:</strong> 03-10-2016, 01:35 </span>
 		<span id="quick_login">Benvenuto ospite! (<a href="http://www.liberainformatica.it/forum/member.php?action=login" onclick="MyBB.quickLogin(); return false;">Log in</a> &mdash; <a href="http://www.liberainformatica.it/forum/member.php?action=register">Registrati</a>)</span>
 <!-- end: header_welcomeblock_guest -->
 			</div>

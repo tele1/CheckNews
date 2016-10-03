@@ -1,13 +1,29 @@
 #! /bin/bash
 
+
+			RC='\e[0;31m' # Red Color
+			NC='\e[0m' # No Color
+
+			funcError()
+				{
+					# zenity --error --text "$1" ; exit 1
+					echo "$1"
+					yad --image=dialog-warning \
+						--text="<b><span color='red'>$1</span></b>" \
+						--button="<b><span color='blue'>OK</span></b>" \
+						--title="Fu Reader"
+					exit 1
+				}
+
+
 # Check Dependecies
-[[ -z $(which yad) ]] && echo "FUUUUUUUUU  yad"
-[[ $(echo $SHELL) == "/bin/bash" ]] || echo "FUUUUUUU  bash"
-[[ -z $(which notify-send) ]] && echo "FUUUUUUUUU  notify-send"
-[[ -z $(which gtkdialog) ]] && echo "FUUUUUUUUU  gtkdialog"
-[[ -z $(which curl) ]] && echo "FUUUUUUUUU  curl"
-[[ -z $(which xdg-open) ]] && echo "FUUUUUUUUU  xdg-open"
-[[ -z $(which awk) ]] && echo "FUUUUUUUUU  awk"
+[[ $(echo $SHELL) == "/bin/bash" ]] || { echo "${RC} Error: FUUUUUUU  \$SHELL=/bin/bash. ${NC}" ; exit 1 ;}
+[[ -z $(which yad) ]] && { echo "${RC} Error: FUUUUUUUUU  yad. ${NC}" ; exit 1 ;}
+[[ -z $(which awk) ]] && funcError " Error: \n FUUUUUUUUU  awk. "
+[[ -z $(which gtkdialog) ]] && funcError "Error: \n FUUUUUUUUU  gtkdialog. "
+[[ -z $(which curl) ]] && funcError " Error: \n FUUUUUUUUU  curl. "
+[[ -z $(which xdg-open) ]] && funcError " Error: \n FUUUUUUUUU  xdg-open. "
+[[ -z $(which notify-send) ]] && funcError " Error: \n FUUUUUUUUU  notify-send. "
 
 
 
