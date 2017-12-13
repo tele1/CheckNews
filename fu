@@ -1,31 +1,56 @@
 #! /bin/bash
 
+# Licence: GPL v.3
+# Version:  Alpha 6
+# Developer: tele
 
-			RC='\e[0;31m' # Red Color
-			NC='\e[0m' # No Color
+RC='\e[0;31m' # Red Color
+NC='\e[0m' # No Color
+ERRORS="0"
+DEP=""
 
-			funcError()
-				{
-					# zenity --error --text "$1" ; exit 1
-					echo "$1"
-					yad --image=dialog-warning \
-						--text="<b><span color='red'>$1</span></b>" \
-						--button="<b><span color='blue'>OK</span></b>" \
-						--title="Error:"
-					exit 1
-				}
+BROKEN1()
+{
+	echo -e "${RC} Error: $1 ${NC}" ; ERRORS=$((ERRORS+1))
+}
+
+BROKEN2()
+{
+	# zenity --error --text "$1" ; exit 1
+	BROKEN1 "Missing $1 , please install."
+	DEP="$DEP"$'\n'"$1"
+}
+
+WINDOW_ERROR()
+{
+	yad --image=dialog-warning \
+		--text="<b><span color='red'>$1</span></b>" \
+		--button="<b><span color='blue'>OK</span></b>" \
+		--title="Error:"
+}
 
 
 # Check Dependecies
-[[ $(echo $SHELL) == "/bin/bash" ]] || { echo -e "${RC} Error: FUUUUUUU  \$SHELL=/bin/bash. ${NC}" ; exit 1 ;}
-[[ -z $(which yad) ]] && { echo -e "${RC} Error: FUUUUUUUUU  yad. \n Please install yad. ${NC}" ; exit 1 ;}
-[[ -z $(which awk) ]] && funcError " FUUUUUUUUU  awk. \n Please install awk."
-[[ -z $(which gtkdialog) ]] && funcError " FUUUUUUUUU  gtkdialog. \n Please install gtkdialog."
-[[ -z $(which curl) ]] && funcError " FUUUUUUUUU  curl. \n Please install curl."
-[[ -z $(which xdg-open) ]] && funcError " FUUUUUUUUU  xdg-open. \n Please install xdg-open."
-[[ -z $(which notify-send) ]] && funcError " FUUUUUUUU  notify-send. \n Please install notify-send."
+[[ $(echo $SHELL) == "/bin/bash" ]] || BROKEN1 "Check  \$SHELL=/bin/bash , change SHELL to bash."
+[[ -z $(which yad) ]] && BROKEN1 " FUUUUUUUUU  yad. \n Please install yad."
+[[ -z $(which awk) ]] && BROKEN2 "awk"
+[[ -z $(which gtkdialog) ]] && BROKEN2 "gtkdialog"
+[[ -z $(which curl) ]] && BROKEN2 "curl"
+[[ -z $(which xdg-open) ]] && BROKEN2 "xdg-open"
+[[ -z $(which notify-send) ]] && BROKEN2 "notify-send"
+
+# KILL SCRIPT IF EXIST ANY ERROR
+	 echo "Errors = $ERRORS"
+	 #echo "Dep = $DEP"
+[ -z "$DEP" ] || WINDOW_ERROR "Please install dependencies: $DEP"
+[ "$ERRORS" -ne "0" ] && { echo Exiting ; exit 1; }
 
 
+
+TIP()
+{
+echo -e "-Where are the river without water? \n-On the maps."
+}
 
 # Menu in tray icon
 echo "-----------------------------"
@@ -34,9 +59,12 @@ yad  --title="Test_window" --notification  --listen \
 Manager!data/manager
 Exit !data/kill_yd "Test_window"" \
 --separator="\\n" \
- --command='echo Where are the river without water? -On the maps.' --image=data/icons/cool-smilies.png  --button="gtk-close:1"
+--command='echo  "-Where are the river without water? -On the maps."' \
+--image=data/icons/cool-smilies.svg \
+--button="gtk-close:1"
 echo "-----------------------------"
 
+# yad icon is small after Debian update or Mate
 
 ## other options
 #CD open!eject
