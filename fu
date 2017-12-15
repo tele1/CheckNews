@@ -60,7 +60,7 @@ Manager!data/manager
 Exit !data/kill_yd "Test_window"" \
 --separator="\\n" \
 --command='echo  "-Where are the river without water? -On the maps."' \
---image=data/icons/cool-smilies.svg \
+--image=data/icons/cool-smilies.png \
 --button="gtk-close:1"
 echo "-----------------------------"
 
