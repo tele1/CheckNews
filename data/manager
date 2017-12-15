@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 
 function Func_remove() {
@@ -35,17 +35,17 @@ export manage='
 	<hbox>
 			<button>
 				<label>Add Link</label>
-				<input file icon="bookmark_add"></input>
+				<input file icon="gtk-add"></input>
 				<action>data/manager.scr/add_link</action>
-                <action>clear:LIST</action>
-                <action>refresh:LIST</action>
+				<action>clear:LIST</action>
+				 <action>refresh:LIST</action>
 			</button>
 			<button>
 				<label>Remove Selected</label>
-				<input file stock="gtk-delete"></input>
+				<input file stock="gtk-remove"></input>
 				<action>Func_remove</action>
-                <action>clear:LIST</action>
-                <action>refresh:LIST</action>
+				<action>clear:LIST</action>
+				<action>refresh:LIST</action>
 			</button>
 
 	</hbox>
@@ -54,11 +54,11 @@ export manage='
 	<hbox>
 				<button>
 					<label>'$"Exit"'</label>
-					<input file icon="exit"></input>
+					<input file icon="gtk-quit"></input>
 					<action>echo You pressed exit button</action>
 					<action type="exit">"Exit by button"</action>
-				<variable>managewindow</variable>
-				<action type="closewindow">"managewindow"</action>
+					<variable>managewindow</variable>
+					<action type="closewindow">"managewindow"</action>
 				</button>
 	</hbox>
 	</vbox>
