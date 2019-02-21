@@ -10,14 +10,13 @@ number1=$[$(tail -n 1 data/manager.scr/lists | awk '{printf $1}')+1]
 # if file is empty
 if  cat data/lists | grep -q ^$ ; then
 	echo "1 $ENTRY" > data/manager.scr/lists
-	curl -s  "$ENTRY" > data/webs/${number1}.0.marker
+	curl -s  "$ENTRY" > data/manager.scr/markers/${number1}.0.marker
 else
 	echo "$number1 $ENTRY" >> data/manager.scr/lists
-	curl -s  "$ENTRY" > data/webs/${number1}.0.marker
+	curl -s  "$ENTRY" > data/manager.scr/markers/${number1}.0.marker
+	touch data/manager.scr/filters/${number1}.filter
 fi
 
-#  if "Compare only line" then open webpage.
-if [[ "$CHECKBOX2" == "true" ]]; then  xdg-open data/webs/${number1}.0.marker ; data/add_filter ; fi
 
 }
 export -f Func_add
@@ -35,16 +34,6 @@ export add='
 	<entry>
 		<variable>ENTRY</variable>
 	</entry>
-			<checkbox  active="true">
-				<label>Compare whole page</label>
-				<variable>CHECKBOX1</variable>
-				<action>if true clear:CHECKBOX2</action>
-			</checkbox>
-			<checkbox  active="false">
-				<label>Compare only line</label>
-				<variable>CHECKBOX2</variable>
-				<action>if true clear:CHECKBOX1</action>
-			</checkbox>
 	<hbox>
 
 		<button ok>

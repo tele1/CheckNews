@@ -57,6 +57,8 @@ echo "-----------------------------"
 yad  --title="Test_window" --notification  --listen \
 --menu="Check News!data/check_news
 Manager!data/manager
+Refresh Markers!data/manager --refresh_markers
+Logs!data/open_log
 Exit !data/kill_yd "Test_window"" \
 --separator="\\n" \
 --command='echo  "-Where are the river without water? -On the maps."' \

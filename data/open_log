@@ -1,0 +1,5 @@
+#! /bin/bash
+
+
+xdg-open data/logs/fu.log
+#pluma data/logs/fu.log

@@ -1,44 +1,32 @@
 #! /bin/bash
 
 
-
-CountLines=$(cat data/manager.scr/lists | wc -l)
-
-		# loop from 1 to all CountLines
-		for i in `seq 1 $CountLines`
-		do
-			# i=line number
-
-			# first word(number) from line
-			number=$(awk 'NR=='$i data/manager.scr/lists | awk '{ printf $1}' )
-
-			# second word(link) from line 
-			link=$(awk 'NR=='$i data/manager.scr/lists | awk '{ printf $2}' )
-
-			OLD_MARKER="data/webs/${number}.*"
-			curl -s $link > data/tmp/new.marker
-			OLD_MARKER="data/tmp/new.marker"
+while IFS= read -r line4 ; do
+	link4=$(awk '{print $2}' <<< $line4)
+	number4=$(awk '{print $1}' <<< $line4)
+	OLD_MARKER="data/manager.scr/markers/${number4}.0.marker"
+	TIME=$(date +"%Y-%m-%d %T")
 
 
-			MARKER_LINE=$(ls data/webs/${number}.* | cut -d'.' -f2)
-			if [[ "$MARKER_LINE" == "0" ]]; then
-
-				# if files are different
-				if ! diff "$OLD_MARKER" "$NEW_MARKER" >/dev/null; then
-				#if cmp -s "$OLD_MARKER" "$OLD_MARKER" ; then
-					xdg-open $link
-
-				else
-					echo "Nothing changed"
-					notify-send "No change $link"
-				fi
-
-			else
-					notify-send "This is not ready."
-			fi
-
-		done
+	if [ -s data/manager.scr/filters/${number4}.filter ]; then
+		curl -s "$link4" | $(cat data/manager.scr/filters/${number4}.filter) > data/tmp/${number4}.new.marker
+	else
+		curl -s "$link4" > data/tmp/${number4}.new.marker
+	fi
 
 
+	if cmp -s "$OLD_MARKER" data/tmp/${number4}.new.marker ; then
+		echo " " >> data/logs/fu.log
+		echo "$TIME -- Nothing changed" | tee -a data/logs/fu.log
+		echo "  - $link4" | tee -a data/logs/fu.log
+	else
+		echo " " >> data/logs/fu.log
+		echo "$TIME -- Something changed" | tee -a data/logs/fu.log
+		echo "  + $link4" | tee -a data/logs/fu.log
+		comm -31 "$OLD_MARKER" data/tmp/${number4}.new.marker >> data/logs/fu.log
+		xdg-open "$link4"
+	fi
+
+done < "data/manager.scr/lists"
 
 

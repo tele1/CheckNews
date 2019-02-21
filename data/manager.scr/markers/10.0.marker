@@ -1,0 +1,87 @@
+<rss version="2.0">
+
+<channel>
+<title>DistroWatch.com: Packages</title>
+<link>http://distrowatch.com/</link>
+<description>Latest package releases</description>
+
+<image>
+<title>DistroWatch</title>
+<url>http://distrowatch.com/images/other/dw.png</url>
+<link>http://distrowatch.com/</link>
+</image>
+
+<item>
+<title>02/20 file 5.36</title>
+<link>http://www.darwinsys.com/file/</link>
+<description>file: a program that attempts to classify files by their content</description>
+</item>
+
+<item>
+<title>02/20 linux 4.20.11</title>
+<link>https://www.kernel.org/</link>
+<description>Linux kernel: a UNIX clone written from scratch by Linus Torvalds</description>
+</item>
+
+<item>
+<title>02/19 plasma-desktop 5.15.1</title>
+<link>https://www.kde.org/workspaces/plasmadesktop/</link>
+<description>Plasma Desktop: a desktop environment</description>
+</item>
+
+<item>
+<title>02/19 snapd 2.37.3</title>
+<link>https://snapcraft.io/</link>
+<description>snapd: a tool to support and manage .snap applications that are portable across different Linux systems </description>
+</item>
+
+<item>
+<title>02/19 squid 4.6</title>
+<link>http://www.squid-cache.org/</link>
+<description>Squid: a full-featured web proxy cache</description>
+</item>
+
+<item>
+<title>02/18 mesa 18.3.4</title>
+<link>http://www.mesa3d.org/</link>
+<description>Mesa: a 3D graphics library</description>
+</item>
+
+<item>
+<title>02/17 kodi 18.1</title>
+<link>https://kodi.tv/</link>
+<description>Kodi: a media player and entertainment hub for digital media</description>
+</item>
+
+<item>
+<title>02/16 compiz 0.9.14.0</title>
+<link>http://compiz.org/</link>
+<description>Compiz: a compositing window manager that uses 3D graphics acceleration via OpenGL</description>
+</item>
+
+<item>
+<title>02/16 texinfo 6.6</title>
+<link>http://www.gnu.org/software/texinfo/</link>
+<description>GNU Texinfo: a collection of utilities that generate online help and printed manuals</description>
+</item>
+
+<item>
+<title>02/14 busybox 1.30.1</title>
+<link>http://www.busybox.net/</link>
+<description>BusyBox: a program that combines many common UNIX utilities into a single small executable</description>
+</item>
+
+<item>
+<title>02/14 thunderbird 60.5.1</title>
+<link>http://www.mozilla.org/products/thunderbird/</link>
+<description>Mozilla Thunderbird: a full-featured e-mail and newsgroup client</description>
+</item>
+
+<item>
+<title>02/14 postgresql 11.2</title>
+<link>https://www.postgresql.org/</link>
+<description>PostgreSQL: a relational database management system</description>
+</item>
+
+</channel>
+</rss>

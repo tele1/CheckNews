@@ -1,6 +1,8 @@
 #!/bin/bash
 
 
+export PATH1=$(pwd)
+
 function Func_remove() {
 	# if variable is empty
 	if [ -z "$LIST" ]
@@ -9,19 +11,98 @@ function Func_remove() {
 		notify-send "Nothing selected to remove."
 	else
 		number1=$(awk '{print $1}' <<< "$LIST")
-		rm -vf data/webs/${number1}.*
+		rm -vf data/markers/${number1}.*
 		echo -e "$(cat data/manager.scr/lists | grep -v "$LIST")" > data/manager.scr/lists
+		rm -vf data/manager.scr/filters/${number1}.filter
 	fi
 }
 export -f Func_remove
 
 
+function Edit_filter() {
+	# if variable is empty
+	if [ -z "$LIST" ]
+	then
+		echo "variable is empty"
+		notify-send "Nothing selected to remove."
+	else
+		number1=$(awk '{print $1}' <<< "$LIST")
+		xdg-open data/manager.scr/filters/${number1}.filter
+	fi
+}
+export -f Edit_filter
 
+
+function Refresh_markers() {
+# Clean all marks
+rm -vf data/manager.scr/markers/*
+# Create new markers
+        while IFS= read -r line2
+        do
+            link2=$(awk '{print $2}' <<< $line2)
+			number2=$(awk '{print $1}' <<< $line2)
+			if [ -s data/manager.scr/filters/${number2}.filter ]; then
+				curl -s  "$link2" | $(cat data/manager.scr/filters/${number2}.filter) > data/manager.scr/markers/${number2}.0.marker
+			else
+				curl -s  "$link2" > data/manager.scr/markers/${number2}.0.marker
+			fi
+        done < "data/manager.scr/lists"
+}
+export -f Refresh_markers
+
+
+function Func_refresh_cron() {
+echo $PATH1
+if [ "$CHECKBOX" = "true" ]; then
+	# add to cron
+	if [ "$SPIN_HOUR" -eq "0" ]; then
+		(crontab -l ; echo "*/${SPIN_MIN} * * * * \$(cd ${PATH1} ; bash data/check_news"\)) | crontab  -
+	else
+		(crontab -l ; echo "*/${SPIN_MIN} */${SPIN_HOUR} * * * \$(cd ${PATH1} ; bash data/check_news"\)) | crontab  -
+	fi
+else
+	# remove from cron
+	crontab -l | grep -v 'data/check_news'  | crontab -
+fi
+}
+export -f Func_refresh_cron
+
+
+
+
+function Func_run_manager() {
 GTKDIALOG=gtkdialog
 
 export manage='
 <window  title="Manager">
-<vbox scrollable="true" width-request="200" width="400" height="250">
+<vbox scrollable="true" width-request="600" width="700" height="370">
+
+
+
+
+<hbox space-expand="true">
+	<checkbox>
+		<label>Enable Check News Every</label>
+		<variable>CHECKBOX</variable>
+		<action>echo Checkbox is $CHECKBOX now.</action>
+	</checkbox>
+
+		<text>
+			<label>Hour</label>
+		</text>
+		<spinbutton range-min="0" range-max="24" range-step="1" range-value="0">
+			<variable>SPIN_HOUR</variable>
+		</spinbutton>
+
+		<text>
+			<label>Minutes</label>
+		</text>
+		<spinbutton range-min="5" range-max="60" range-step="5" range-value="5">
+			<variable>SPIN_MIN</variable>
+		</spinbutton>
+</hbox>
+
+
 	<text>
 		<label>Links:</label>
 	</text>
@@ -33,6 +114,15 @@ export manage='
 
 	<vbox>
 	<hbox>
+	<vbox>
+			<button>
+				<label>Edit Selected Filter</label>
+				<input file icon="gtk-edit"></input>
+				<action>Edit_filter</action>
+
+			</button>
+	</vbox>
+	<vbox>
 			<button>
 				<label>Add Link</label>
 				<input file icon="gtk-add"></input>
@@ -41,13 +131,14 @@ export manage='
 				 <action>refresh:LIST</action>
 			</button>
 			<button>
-				<label>Remove Selected</label>
+				<label>Remove Selected Link</label>
 				<input file stock="gtk-remove"></input>
 				<action>Func_remove</action>
 				<action>clear:LIST</action>
 				<action>refresh:LIST</action>
 			</button>
 
+	</vbox>
 	</hbox>
 <vseparator height-request="10"></vseparator>
 
@@ -56,6 +147,7 @@ export manage='
 					<label>'$"Exit"'</label>
 					<input file icon="gtk-quit"></input>
 					<action>echo You pressed exit button</action>
+					<action>Func_refresh_cron</action>
 					<action type="exit">"Exit by button"</action>
 					<variable>managewindow</variable>
 					<action type="closewindow">"managewindow"</action>
@@ -67,4 +159,18 @@ export manage='
 </window>
 '
 gtkdialog -c  --program manage
+}
 
+
+#============{
+case $1 in
+	"--refresh_markers")
+	Refresh_markers
+	echo "Markers refreshed."
+;;
+*)
+	## unknown option
+	Func_run_manager
+;;
+esac
+#============}
