@@ -1,32 +1,34 @@
 #! /bin/bash
 
 
+PATH_RELATIV=$(dirname "$0")
+
 while IFS= read -r line4 ; do
 	link4=$(awk '{print $2}' <<< $line4)
 	number4=$(awk '{print $1}' <<< $line4)
-	OLD_MARKER="data/manager.scr/markers/${number4}.0.marker"
+	OLD_MARKER="${PATH_RELATIV}/manager.scr/markers/${number4}.0.marker"
 	TIME=$(date +"%Y-%m-%d %T")
 
 
-	if [ -s data/manager.scr/filters/${number4}.filter ]; then
-		curl -s "$link4" | $(cat data/manager.scr/filters/${number4}.filter) > data/tmp/${number4}.new.marker
+	if [ -s ${PATH_RELATIV}/manager.scr/filters/${number4}.filter ]; then
+		curl -s "$link4" | $(cat ${PATH_RELATIV}/manager.scr/filters/${number4}.filter) > ${PATH_RELATIV}/tmp/${number4}.new.marker
 	else
-		curl -s "$link4" > data/tmp/${number4}.new.marker
+		curl -s "$link4" > ${PATH_RELATIV}/tmp/${number4}.new.marker
 	fi
 
 
-	if cmp -s "$OLD_MARKER" data/tmp/${number4}.new.marker ; then
-		echo " " >> data/logs/fu.log
-		echo "$TIME -- Nothing changed" | tee -a data/logs/fu.log
-		echo "  - $link4" | tee -a data/logs/fu.log
+	if cmp -s "$OLD_MARKER" ${PATH_RELATIV}/tmp/${number4}.new.marker ; then
+		echo " " >> ${PATH_RELATIV}/logs/fu.log
+		echo "$TIME -- Nothing changed" | tee -a ${PATH_RELATIV}/logs/fu.log
+		echo "  - $link4" | tee -a ${PATH_RELATIV}/logs/fu.log
 	else
-		echo " " >> data/logs/fu.log
-		echo "$TIME -- Something changed" | tee -a data/logs/fu.log
-		echo "  + $link4" | tee -a data/logs/fu.log
-		comm -31 "$OLD_MARKER" data/tmp/${number4}.new.marker >> data/logs/fu.log
+		echo " " >> ${PATH_RELATIV}/logs/fu.log
+		echo "$TIME -- Something changed" | tee -a ${PATH_RELATIV}/logs/fu.log
+		echo "  + $link4" | tee -a ${PATH_RELATIV}/logs/fu.log
+		#comm -31 "$OLD_MARKER" ${PATH_RELATIV}/tmp/${number4}.new.marker >> ${PATH_RELATIV}/logs/fu.log
 		xdg-open "$link4"
 	fi
 
-done < "data/manager.scr/lists"
+done < "${PATH_RELATIV}/manager.scr/lists"
 
 

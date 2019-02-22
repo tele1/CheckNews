@@ -1,71 +1,111 @@
 #!/bin/bash
 
 
-export PATH1=$(pwd)
+export PATH_RELATIV=$(dirname "$0")
+
 
 function Func_remove() {
 	# if variable is empty
-	if [ -z "$LIST" ]
+	if [ -z "$TREE1" ]
 	then
-		echo "variable is empty"
 		notify-send "Nothing selected to remove."
+		echo "Nothing selected from links to remove." | tee -a ${PATH_RELATIV}/logs/fu.log
 	else
-		number1=$(awk '{print $1}' <<< "$LIST")
-		rm -vf data/markers/${number1}.*
-		echo -e "$(cat data/manager.scr/lists | grep -v "$LIST")" > data/manager.scr/lists
-		rm -vf data/manager.scr/filters/${number1}.filter
+		number1=$(awk '{print $1}' <<< "$TREE1")
+		rm -vf ${PATH_RELATIV}/markers/${number1}.*
+		echo -e "$(cat ${PATH_RELATIV}/manager.scr/lists | grep -v ^"$TREE1")" > ${PATH_RELATIV}/manager.scr/lists
+		rm -vf ${PATH_RELATIV}/manager.scr/filters/${number1}.filter
 	fi
-}
-export -f Func_remove
+} ; export -f Func_remove
 
 
 function Edit_filter() {
 	# if variable is empty
-	if [ -z "$LIST" ]
+	if [ -z "$TREE1" ]
 	then
 		echo "variable is empty"
 		notify-send "Nothing selected to remove."
 	else
-		number1=$(awk '{print $1}' <<< "$LIST")
-		xdg-open data/manager.scr/filters/${number1}.filter
+		number1=$(awk '{print $1}' <<< "$TREE1")
+		xdg-open ${PATH_RELATIV}/manager.scr/filters/${number1}.filter
 	fi
-}
-export -f Edit_filter
+} ; export -f Edit_filter
 
 
 function Refresh_markers() {
 # Clean all marks
-rm -vf data/manager.scr/markers/*
+rm -vf ${PATH_RELATIV}/manager.scr/markers/*
 # Create new markers
         while IFS= read -r line2
         do
             link2=$(awk '{print $2}' <<< $line2)
 			number2=$(awk '{print $1}' <<< $line2)
-			if [ -s data/manager.scr/filters/${number2}.filter ]; then
-				curl -s  "$link2" | $(cat data/manager.scr/filters/${number2}.filter) > data/manager.scr/markers/${number2}.0.marker
+			if [ -s ${PATH_RELATIV}/manager.scr/filters/${number2}.filter ]; then
+				curl -s  "$link2" | $(cat ${PATH_RELATIV}/manager.scr/filters/${number2}.filter) > ${PATH_RELATIV}/manager.scr/markers/${number2}.0.marker
 			else
-				curl -s  "$link2" > data/manager.scr/markers/${number2}.0.marker
+				curl -s  "$link2" > ${PATH_RELATIV}/manager.scr/markers/${number2}.0.marker
 			fi
-        done < "data/manager.scr/lists"
-}
-export -f Refresh_markers
+        done < "${PATH_RELATIV}/manager.scr/lists"
+} ; export -f Refresh_markers
 
 
 function Func_refresh_cron() {
-echo $PATH1
+echo ${PATH_RELATIV}
+PATH_PWD=$(pwd)
+DIS="DISPLAY=$DISPLAY"
+
 if [ "$CHECKBOX" = "true" ]; then
+	# remove from cron
+	crontab -l | grep -v 'data/check_news'  | crontab -
 	# add to cron
 	if [ "$SPIN_HOUR" -eq "0" ]; then
-		(crontab -l ; echo "*/${SPIN_MIN} * * * * \$(cd ${PATH1} ; bash data/check_news"\)) | crontab  -
+		(crontab -l ; echo "*/${SPIN_MIN} * * * * ${DIS} /bin/bash ${PATH_PWD}/data/check_news") | crontab  -
 	else
-		(crontab -l ; echo "*/${SPIN_MIN} */${SPIN_HOUR} * * * \$(cd ${PATH1} ; bash data/check_news"\)) | crontab  -
+		(crontab -l ; echo "*/${SPIN_MIN} */${SPIN_HOUR} * * * ${DIS} /bin/bash ${PATH_PWD}/data/check_news") | crontab  -
 	fi
 else
 	# remove from cron
 	crontab -l | grep -v 'data/check_news'  | crontab -
 fi
-}
-export -f Func_refresh_cron
+} ; export -f Func_refresh_cron
+
+
+function Refresh_checkbox() {
+	if crontab -l | grep -q 'data/check_news' ; then
+		echo '<default>true</default>'
+	else
+		echo '<default>false</default>'
+	fi
+} ; export -f Refresh_checkbox
+
+
+function Refresh_Hour() {
+	if crontab -l | grep -q 'data/check_news' ; then
+		DEF_HOUR=$(crontab -l | grep 'data/check_news'| awk '{print $2}' | sed -e 's/*\///g')
+		echo '<default>'$DEF_HOUR'</default>'
+	else
+		echo '<default>0</default>'
+	fi
+} ; export -f Refresh_Hour
+
+
+function Refresh_Min() {
+	if crontab -l | grep -q 'data/check_news' ; then
+		DEF_MIN=$(crontab -l | grep 'data/check_news'| awk '{print $1}' | sed -e 's/*\///g')
+		echo '<default>'$DEF_MIN'</default>'
+	else
+		echo '<default>1</default>'
+	fi
+} ; export -f Refresh_Min
+
+
+funcList() {
+while IFS= read -r line3 ; do
+
+ awk '{print "|" $1 "|" $3" "$4 "|" $2}' <<< $line3
+#
+done < "${PATH_RELATIV}/manager.scr/lists"
+}; export -f funcList
 
 
 
@@ -77,12 +117,10 @@ export manage='
 <window  title="Manager">
 <vbox scrollable="true" width-request="600" width="700" height="370">
 
-
-
-
 <hbox space-expand="true">
 	<checkbox>
 		<label>Enable Check News Every</label>
+		'"`Refresh_checkbox`"'
 		<variable>CHECKBOX</variable>
 		<action>echo Checkbox is $CHECKBOX now.</action>
 	</checkbox>
@@ -92,31 +130,35 @@ export manage='
 		</text>
 		<spinbutton range-min="0" range-max="24" range-step="1" range-value="0">
 			<variable>SPIN_HOUR</variable>
+			'"`Refresh_Hour`"'
 		</spinbutton>
 
 		<text>
 			<label>Minutes</label>
 		</text>
-		<spinbutton range-min="5" range-max="60" range-step="5" range-value="5">
+		<spinbutton range-min="1" range-max="60" range-step="1" range-value="1">
 			<variable>SPIN_MIN</variable>
+			'"`Refresh_Min`"'
 		</spinbutton>
 </hbox>
-
 
 	<text>
 		<label>Links:</label>
 	</text>
-    <list>
-		<variable>LIST</variable>
-		<input file>data/manager.scr/lists</input>
 
-    </list>
+		<tree>
+			<label>ID|Description|Link</label>
+			<variable>TREE1</variable>
+			<height>150</height>
+			<width>400</width>
+			<input icon-column="0">bash -c funcList</input>
+		</tree>
 
 	<vbox>
 	<hbox>
 	<vbox>
 			<button>
-				<label>Edit Selected Filter</label>
+				<label>Edit Filter Selected Link</label>
 				<input file icon="gtk-edit"></input>
 				<action>Edit_filter</action>
 
@@ -126,16 +168,16 @@ export manage='
 			<button>
 				<label>Add Link</label>
 				<input file icon="gtk-add"></input>
-				<action>data/manager.scr/add_link</action>
-				<action>clear:LIST</action>
-				 <action>refresh:LIST</action>
+				<action>'"${PATH_RELATIV}"'/manager.scr/add_link</action>
+				<action>clear:TREE1</action>
+				 <action>refresh:TREE1</action>
 			</button>
 			<button>
 				<label>Remove Selected Link</label>
 				<input file stock="gtk-remove"></input>
 				<action>Func_remove</action>
-				<action>clear:LIST</action>
-				<action>refresh:LIST</action>
+				<action>clear:TREE1</action>
+				<action>refresh:TREE1</action>
 			</button>
 
 	</vbox>

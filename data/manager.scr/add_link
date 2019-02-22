@@ -9,10 +9,10 @@ number1=$[$(tail -n 1 data/manager.scr/lists | awk '{printf $1}')+1]
 
 # if file is empty
 if  cat data/lists | grep -q ^$ ; then
-	echo "1 $ENTRY" > data/manager.scr/lists
+	echo "1 $ENTRY $ENTRY2" > data/manager.scr/lists
 	curl -s  "$ENTRY" > data/manager.scr/markers/${number1}.0.marker
 else
-	echo "$number1 $ENTRY" >> data/manager.scr/lists
+	echo "$number1 $ENTRY $ENTRY2" >> data/manager.scr/lists
 	curl -s  "$ENTRY" > data/manager.scr/markers/${number1}.0.marker
 	touch data/manager.scr/filters/${number1}.filter
 fi
@@ -27,12 +27,19 @@ GTKDIALOG=gtkdialog
 
 export add='
 <window  title="Download source">
-<vbox>
+<vbox scrollable="true" width-request="600" width="680" height="200">
 	<text>
 		<label>Add Link:</label>
 	</text>
 	<entry>
 		<variable>ENTRY</variable>
+	</entry>
+
+	<text>
+		<label>Add Description:</label>
+	</text>
+	<entry>
+		<variable>ENTRY2</variable>
 	</entry>
 	<hbox>
 

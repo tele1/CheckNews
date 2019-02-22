@@ -12,6 +12,24 @@
 </image>
 
 <item>
+<title>02/21 bind 9.13.7</title>
+<link>http://www.isc.org/downloads/bind/</link>
+<description>ISC BIND: an implementation of the Domain Name System (DNS) protocols</description>
+</item>
+
+<item>
+<title>02/21 wordpress 5.1</title>
+<link>https://wordpress.org/</link>
+<description>WordPress: publishing software for the world wide web</description>
+</item>
+
+<item>
+<title>02/21 tor 0.3.5.8</title>
+<link>http://www.torproject.org/</link>
+<description>Tor: a network of virtual tunnels that allows people to improve privacy and security on the Internet</description>
+</item>
+
+<item>
 <title>02/20 file 5.36</title>
 <link>http://www.darwinsys.com/file/</link>
 <description>file: a program that attempts to classify files by their content</description>
@@ -63,24 +81,6 @@
 <title>02/16 texinfo 6.6</title>
 <link>http://www.gnu.org/software/texinfo/</link>
 <description>GNU Texinfo: a collection of utilities that generate online help and printed manuals</description>
-</item>
-
-<item>
-<title>02/14 busybox 1.30.1</title>
-<link>http://www.busybox.net/</link>
-<description>BusyBox: a program that combines many common UNIX utilities into a single small executable</description>
-</item>
-
-<item>
-<title>02/14 thunderbird 60.5.1</title>
-<link>http://www.mozilla.org/products/thunderbird/</link>
-<description>Mozilla Thunderbird: a full-featured e-mail and newsgroup client</description>
-</item>
-
-<item>
-<title>02/14 postgresql 11.2</title>
-<link>https://www.postgresql.org/</link>
-<description>PostgreSQL: a relational database management system</description>
 </item>
 
 </channel>
