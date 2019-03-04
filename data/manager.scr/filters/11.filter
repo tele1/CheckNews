@@ -1,1 +1,1 @@
-grep "action=lastpost"
+curl -s "$1" | grep -A1 "action=lastpost"

@@ -36,16 +36,21 @@ function Refresh_markers() {
 # Clean all marks
 rm -vf ${PATH_RELATIV}/manager.scr/markers/*
 # Create new markers
-        while IFS= read -r line2
-        do
-            link2=$(awk '{print $2}' <<< $line2)
-			number2=$(awk '{print $1}' <<< $line2)
-			if [ -s ${PATH_RELATIV}/manager.scr/filters/${number2}.filter ]; then
-				curl -s  "$link2" | $(cat ${PATH_RELATIV}/manager.scr/filters/${number2}.filter) > ${PATH_RELATIV}/manager.scr/markers/${number2}.0.marker
-			else
-				curl -s  "$link2" > ${PATH_RELATIV}/manager.scr/markers/${number2}.0.marker
-			fi
-        done < "${PATH_RELATIV}/manager.scr/lists"
+
+NUMBER_OF_LINES1=$(cat ${PATH_RELATIV}/manager.scr/lists | wc -l)
+for i in `seq 1 $NUMBER_OF_LINES1` ; do
+
+	LINE_1=$(awk 'NR=='$i ${PATH_RELATIV}/manager.scr/lists)
+	NUMBER_2=$(awk '{ print $1 }' <<< $LINE_1 )
+	LINK_2=$(awk '{ print $2 }' <<< $LINE_1 )
+	
+	if [ -s ${PATH_RELATIV}/manager.scr/filters/${NUMBER_2}.filter ]; then
+		bash ${PATH_RELATIV}/manager.scr/filters/${NUMBER_2}.filter  ${LINK_2} > ${PATH_RELATIV}/manager.scr/markers/${NUMBER_2}.0.marker
+	else
+		curl -s  "$LINK_2" > ${PATH_RELATIV}/manager.scr/markers/${NUMBER_2}.0.marker
+	fi
+
+done
 } ; export -f Refresh_markers
 
 
@@ -60,8 +65,14 @@ if [ "$CHECKBOX" = "true" ]; then
 	# add to cron
 	if [ "$SPIN_HOUR" -eq "0" ]; then
 		(crontab -l ; echo "*/${SPIN_MIN} * * * * ${DIS} /bin/bash ${PATH_PWD}/data/check_news") | crontab  -
+		if [ "$SPIN_MIN" -eq "0" ]; then
+			${PATH_RELATIV}/window1.info "Cron with 0 hour and 0 min will off."
+		fi
+	elif [ "$SPIN_MIN" -eq "0" ]; then
+		(crontab -l ; echo "0 */${SPIN_HOUR} * * * ${DIS} /bin/bash ${PATH_PWD}/data/check_news") | crontab  -
 	else
 		(crontab -l ; echo "*/${SPIN_MIN} */${SPIN_HOUR} * * * ${DIS} /bin/bash ${PATH_PWD}/data/check_news") | crontab  -
+		${PATH_RELATIV}/window1.info "Info: The script will run every ${SPIN_MIN} min. Please use only hour or minute."
 	fi
 else
 	# remove from cron
@@ -85,6 +96,7 @@ function Refresh_Hour() {
 		echo '<default>'$DEF_HOUR'</default>'
 	else
 		echo '<default>0</default>'
+		echo '<sensitive>false</sensitive>'
 	fi
 } ; export -f Refresh_Hour
 
@@ -94,7 +106,8 @@ function Refresh_Min() {
 		DEF_MIN=$(crontab -l | grep 'data/check_news'| awk '{print $1}' | sed -e 's/*\///g')
 		echo '<default>'$DEF_MIN'</default>'
 	else
-		echo '<default>1</default>'
+		echo '<default>10</default>'
+		echo '<sensitive>false</sensitive>'
 	fi
 } ; export -f Refresh_Min
 
@@ -108,6 +121,22 @@ done < "${PATH_RELATIV}/manager.scr/lists"
 }; export -f funcList
 
 
+Def_CHECKBOX2_sensitive() {
+	if crontab -l | grep -q 'data/check_news' ; then
+		echo '<sensitive>true</sensitive>'
+	else
+		echo '<sensitive>false</sensitive>'
+	fi
+}; export -f Def_CHECKBOX2_sensitive
+
+
+function Refresh_CHECKBOX2() {
+	if grep -q "disable_automatic_start=enable" "${PATH_RELATIV}/manager.scr/settings" ; then
+		echo '<default>true</default>'
+	else
+		echo '<default>false</default>'
+	fi
+}; export -f Refresh_CHECKBOX2
 
 
 function Func_run_manager() {
@@ -115,14 +144,20 @@ GTKDIALOG=gtkdialog
 
 export manage='
 <window  title="Manager">
-<vbox scrollable="true" width-request="600" width="700" height="370">
+<vbox scrollable="true" width-request="600" width="700" height="400">
 
 <hbox space-expand="true">
 	<checkbox>
-		<label>Enable Check News Every</label>
+		<label>Enable checking news every</label>
 		'"`Refresh_checkbox`"'
 		<variable>CHECKBOX</variable>
 		<action>echo Checkbox is $CHECKBOX now.</action>
+		<action>if false disable:CHECKBOX2</action>
+		<action>if true enable:CHECKBOX2</action>
+		<action>if false disable:SPIN_HOUR</action>
+		<action>if true enable:SPIN_HOUR</action>
+		<action>if false disable:SPIN_MIN</action>
+		<action>if true enable:SPIN_MIN</action>
 	</checkbox>
 
 		<text>
@@ -130,17 +165,32 @@ export manage='
 		</text>
 		<spinbutton range-min="0" range-max="24" range-step="1" range-value="0">
 			<variable>SPIN_HOUR</variable>
-			'"`Refresh_Hour`"'
+			'"`Refresh_Hour`"' 
 		</spinbutton>
 
 		<text>
 			<label>Minutes</label>
 		</text>
-		<spinbutton range-min="1" range-max="60" range-step="1" range-value="1">
+		<spinbutton range-min="0" range-max="60" range-step="1" range-value="1">
 			<variable>SPIN_MIN</variable>
 			'"`Refresh_Min`"'
 		</spinbutton>
 </hbox>
+
+
+<hbox homogeneous="true">
+	<checkbox>
+		<label>Disable checking news when app in tray not working.</label>
+		<variable>CHECKBOX2</variable>
+		<action>echo Checkbox2 is $CHECKBOX2 now.</action>
+		<action>if false echo "disable_automatic_start=disable" > '"${PATH_RELATIV}"'/manager.scr/settings</action>
+		<action>if true echo "disable_automatic_start=enable" > '"${PATH_RELATIV}"'/manager.scr/settings</action>
+			'"`Def_CHECKBOX2_sensitive`"'
+			'"`Refresh_CHECKBOX2`"'
+	</checkbox>
+</hbox>
+
+
 
 	<text>
 		<label>Links:</label>

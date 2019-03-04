@@ -1,17 +1,53 @@
 
 
 Licence:       GPL v.3
-Version:       Beta 1
+Version:       Beta 2
 Created for:   Uplos Linux
 Uplos Website: http://www.liberainformatica.it/forum/forumdisplay.php?fid=25
+Destiny:       for Desktop, for advanced users
 
 
-Very short user manual.
-	Inside "Manager" you can "Add Link" and for it,
-	you can "Edit Filter" of link,
-	to track specific changes of the data on the website.
+What is this ?
+	An advanced tool with GUI for automatic opening of webpages
+	on which changes have occurred since the last visit.
+	Do you know how much per year you're wasting time checking websites ?
+	Do not waste your life on manually checking the news. You can use it :)
+
+How it use ?
+	Download, unpack, install dependencies, and use.
+Dependencies:
+	For Uplos Linux:
+		bash-4.3
+		coreutils-8.24
+		cronie-1.5.0
+		curl-7.49.1
+		diffutils-3.3
+		gawk-4.1.2
+		grep-2.26
+		gtkdialog-0.8.3
+		ncurses-5.9
+		procps-3.2.8
+		util-linux-ng-2.27.1
+		yad-0.36.2
+	List of dependencies generated from fin.dep.sh
+How use Manager ?
+	Inside "Manager" you can "Add Link",
+	and for it you can "Edit Filter" of link,
+	to track part, specific changes of the data on the website.
+	If you want, set time how often do you want check websites.
+	If the website changes, the website will open automatically in the web browser.
+	If you read website, click "Refresh Markers" to save current webpages for later comparison.
+How create own "Filter" ?
+	Open website in terminal
+	" curl -s website "
+	and use system commands to extract text which you want track.
+	Then copy and paste it to "Filter", for example
+	" curl -s "$1" | grep -m1 3.16 "
+	and change website to "$1".
 
 
+
+Used Tools:
 About Bash: https://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f
 About GtkDialog:  http://murga-linux.com/puppy/viewtopic.php?p=274035#274035
 User Manual: http://xpt.sourceforge.net/techdocs/language/gtkdialog/gtkde03-GtkdialogUserManual/
@@ -21,3 +57,9 @@ Other Examples:
 1. inside gtkdialog source code: https://github.com/oshazard/gtkdialog/tree/master/examples
 2. more inside magazines: http://pclosmag.com/html/Issues/200910/page21.html
 3. other sources: https://code.google.com/archive/p/gtkdialog/downloads
+
+
+
+- wylaczanie aplikacji przy starcie, jesli nie dziala
+- jezeli beda dwa 0 wywal blad
+

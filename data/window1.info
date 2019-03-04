@@ -1,0 +1,35 @@
+#! /bin/bash
+
+##=========================================
+##		i18n - Multilanguage support
+		TEXTDOMAIN=window1.info
+		TEXTDOMAINDIR="/usr/share/locale"
+##=========================================
+
+# You need give option to working window
+# for example: ./window1.info "Info: File saved."
+
+
+export window1='
+<window title="Mur Info" icon-name="gtk-dialog-info">
+<vbox> 
+	<frame>
+		<hbox>
+			<pixmap icon_size="6">
+				<input file stock="gtk-dialog-info"></input>
+			</pixmap>
+				<vbox>
+					<text>
+						<label>'"$1"'</label>
+					</text>
+				</vbox>
+		</hbox>
+	</frame>
+		<hbox>
+			<button ok>
+			</button>
+		</hbox>
+</vbox> 
+</window>  
+'
+gtkdialog -c --program window1

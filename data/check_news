@@ -2,33 +2,55 @@
 
 
 PATH_RELATIV=$(dirname "$0")
-
-while IFS= read -r line4 ; do
-	link4=$(awk '{print $2}' <<< $line4)
-	number4=$(awk '{print $1}' <<< $line4)
-	OLD_MARKER="${PATH_RELATIV}/manager.scr/markers/${number4}.0.marker"
-	TIME=$(date +"%Y-%m-%d %T")
+TIME=$(date +"%Y-%m-%d %T")
 
 
-	if [ -s ${PATH_RELATIV}/manager.scr/filters/${number4}.filter ]; then
-		curl -s "$link4" | $(cat ${PATH_RELATIV}/manager.scr/filters/${number4}.filter) > ${PATH_RELATIV}/tmp/${number4}.new.marker
+# Check process
+if grep -q "disable_automatic_start=enable" "${PATH_RELATIV}/manager.scr/settings" ; then
+	echo " " >> ${PATH_RELATIV}/logs/fu.log
+	echo "disable_automatic_start=enable" >> ${PATH_RELATIV}/logs/fu.log
+	if ! ps -fC fu ; then
+		echo " fu not working" >> ${PATH_RELATIV}/logs/fu.log
+ 		exit 0
+	fi
+fi
+
+
+NUMBER_OF_LINES1=$(cat ${PATH_RELATIV}/manager.scr/lists | wc -l)
+for i in `seq 1 $NUMBER_OF_LINES1` ; do
+
+	LINE_1=$(awk 'NR=='$i ${PATH_RELATIV}/manager.scr/lists)
+	NUMBER_2=$(awk '{ print $1 }' <<< $LINE_1 )
+	LINK_2=$(awk '{ print $2 }' <<< $LINE_1 )
+	OLD_MARKER="${PATH_RELATIV}/manager.scr/markers/${NUMBER_2}.0.marker"
+
+	if [ -s ${PATH_RELATIV}/manager.scr/filters/${NUMBER_2}.filter ]; then
+		bash ${PATH_RELATIV}/manager.scr/filters/${NUMBER_2}.filter  ${LINK_2} >  ${PATH_RELATIV}/tmp/${NUMBER_2}.new.marker
 	else
-		curl -s "$link4" > ${PATH_RELATIV}/tmp/${number4}.new.marker
+		curl -s  "$LINK_2" > ${PATH_RELATIV}/tmp/${NUMBER_2}.new.marker
 	fi
 
-
-	if cmp -s "$OLD_MARKER" ${PATH_RELATIV}/tmp/${number4}.new.marker ; then
+	if cmp -s "$OLD_MARKER" ${PATH_RELATIV}/tmp/${NUMBER_2}.new.marker ; then
 		echo " " >> ${PATH_RELATIV}/logs/fu.log
 		echo "$TIME -- Nothing changed" | tee -a ${PATH_RELATIV}/logs/fu.log
-		echo "  - $link4" | tee -a ${PATH_RELATIV}/logs/fu.log
+		echo "  - $LINK_2" | tee -a ${PATH_RELATIV}/logs/fu.log
 	else
 		echo " " >> ${PATH_RELATIV}/logs/fu.log
 		echo "$TIME -- Something changed" | tee -a ${PATH_RELATIV}/logs/fu.log
-		echo "  + $link4" | tee -a ${PATH_RELATIV}/logs/fu.log
-		#comm -31 "$OLD_MARKER" ${PATH_RELATIV}/tmp/${number4}.new.marker >> ${PATH_RELATIV}/logs/fu.log
-		xdg-open "$link4"
+		echo "  + $LINK_2" | tee -a ${PATH_RELATIV}/logs/fu.log
+		#comm -31 "$OLD_MARKER" ${PATH_RELATIV}/tmp/${NUMBER_2}.new.marker >> ${PATH_RELATIV}/logs/fu.log
+		xdg-open "$LINK_2"
 	fi
 
-done < "${PATH_RELATIV}/manager.scr/lists"
+done
 
+
+if [ "$(find ${PATH_RELATIV}/manager.scr/markers/ -type f -empty | wc -l)" != "0" ] ; then
+	ERROR1a=" Error: Marker is automatically created, after parsing the link using a filter."
+	ERROR1b=" But marker is empty, and we can not compare website."
+	ERROR1c=" Please check internet conection, link, filter, and marker:"
+	FILES1=$(find ${PATH_RELATIV}/manager.scr/markers/ -type f -empty)
+	echo -e "$ERROR1a \n $ERROR1b \n $ERROR1c \n $FILES1"
+	${PATH_RELATIV}/window1.info "$(echo "$ERROR1a $ERROR1b $ERROR1c $FILES1" | tr '\n' ' ')"
+fi
 

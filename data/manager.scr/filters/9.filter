@@ -1,1 +1,1 @@
-grep -m1 3.16 
+curl -s "$1" | grep -m1 3.16 

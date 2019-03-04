@@ -12,75 +12,75 @@
 </image>
 
 <item>
-<title>02/21 bind 9.13.7</title>
-<link>http://www.isc.org/downloads/bind/</link>
-<description>ISC BIND: an implementation of the Domain Name System (DNS) protocols</description>
+<title>03/04 libvirt 5.1.0</title>
+<link>http://libvirt.org/</link>
+<description>libvirt: a toolkit to interact with the virtualization capabilities of the Linux kernel</description>
 </item>
 
 <item>
-<title>02/21 wordpress 5.1</title>
-<link>https://wordpress.org/</link>
-<description>WordPress: publishing software for the world wide web</description>
-</item>
-
-<item>
-<title>02/21 tor 0.3.5.8</title>
-<link>http://www.torproject.org/</link>
-<description>Tor: a network of virtual tunnels that allows people to improve privacy and security on the Internet</description>
-</item>
-
-<item>
-<title>02/20 file 5.36</title>
-<link>http://www.darwinsys.com/file/</link>
-<description>file: a program that attempts to classify files by their content</description>
-</item>
-
-<item>
-<title>02/20 linux 4.20.11</title>
+<title>03/04 linux 5.0</title>
 <link>https://www.kernel.org/</link>
 <description>Linux kernel: a UNIX clone written from scratch by Linus Torvalds</description>
 </item>
 
 <item>
-<title>02/19 plasma-desktop 5.15.1</title>
-<link>https://www.kde.org/workspaces/plasmadesktop/</link>
-<description>Plasma Desktop: a desktop environment</description>
+<title>03/01 qt-creator 4.8.2</title>
+<link>http://wiki.qt.io/Qt_Creator</link>
+<description>Qt Creator: a cross-platform IDE tailored to the needs of Qt developers</description>
 </item>
 
 <item>
-<title>02/19 snapd 2.37.3</title>
+<title>03/01 ibus 1.5.20</title>
+<link>https://github.com/ibus/ibus/wiki</link>
+<description>IBus: an intelligent input bus for Linux and UNIX</description>
+</item>
+
+<item>
+<title>02/28 midori 8.0</title>
+<link>http://midori-browser.org/</link>
+<description>Midori: a lightweight web browser</description>
+</item>
+
+<item>
+<title>02/28 rust 1.33.0</title>
+<link>https://www.rust-lang.org/</link>
+<description>Rust: a systems programming language that runs blazingly fast, prevents segfaults and guarantees thread safety</description>
+</item>
+
+<item>
+<title>02/28 docker 18.09.3</title>
+<link>https://www.docker.com/community-edition</link>
+<description>Docker: a program that performs operating-system-level virtualisation, also known as "containerisation"</description>
+</item>
+
+<item>
+<title>02/28 wireshark 3.0.0</title>
+<link>https://www.wireshark.org/</link>
+<description>Wireshark: a network protocol analyzer</description>
+</item>
+
+<item>
+<title>02/28 firefox 65.0.2</title>
+<link>http://www.mozilla.org/products/firefox/</link>
+<description>Mozilla Firefox: a web browser for Windows, Linux, macOS, FreeBSD and Android</description>
+</item>
+
+<item>
+<title>02/28 postfix 3.4.0</title>
+<link>http://www.postfix.org/start.html</link>
+<description>Postfix: a mail transport agent</description>
+</item>
+
+<item>
+<title>02/27 snapd 2.37.4</title>
 <link>https://snapcraft.io/</link>
 <description>snapd: a tool to support and manage .snap applications that are portable across different Linux systems </description>
 </item>
 
 <item>
-<title>02/19 squid 4.6</title>
-<link>http://www.squid-cache.org/</link>
-<description>Squid: a full-featured web proxy cache</description>
-</item>
-
-<item>
-<title>02/18 mesa 18.3.4</title>
-<link>http://www.mesa3d.org/</link>
-<description>Mesa: a 3D graphics library</description>
-</item>
-
-<item>
-<title>02/17 kodi 18.1</title>
-<link>https://kodi.tv/</link>
-<description>Kodi: a media player and entertainment hub for digital media</description>
-</item>
-
-<item>
-<title>02/16 compiz 0.9.14.0</title>
-<link>http://compiz.org/</link>
-<description>Compiz: a compositing window manager that uses 3D graphics acceleration via OpenGL</description>
-</item>
-
-<item>
-<title>02/16 texinfo 6.6</title>
-<link>http://www.gnu.org/software/texinfo/</link>
-<description>GNU Texinfo: a collection of utilities that generate online help and printed manuals</description>
+<title>02/26 xorg-server 1.20.4</title>
+<link>http://xorg.freedesktop.org/</link>
+<description>X.Org: the X.Org Foundation's public implementation of the X Window System</description>
 </item>
 
 </channel>
